@@ -75,7 +75,7 @@ namespace BronzeWebUtils
             File.WriteAllBytes(@"c:\test.zip", data);
 
             byte[] file = File.ReadAllBytes(@"c:\test.zip");
-            //Process.Start(@"c:\test.zip");
+            ZipFile.ExtractToDirectory(@"c:\test.zip", @"c:\temp");
         }
     }
 }

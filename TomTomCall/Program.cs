@@ -2,6 +2,7 @@
 using BronzeLibrary;
 using System.Data;
 using BronzeDBLibrary;
+using EnergLibrary;
 
 namespace TomTomCall
 {
@@ -184,7 +185,7 @@ namespace TomTomCall
 
             WorkOrderRef wor = new WorkOrderRef();
             wor.jdeReference = String.Format("JDE{0}", jobid);
-            wor.ui = new EnergLibrary.UnitInfo(display_ID);
+            wor.ui = new UnitInfo(display_ID);
             wor.add = DBStuff.GetAddress(wor.ui);
             wor.visitID = jobid;
             DataTable dtjc = DBStuff.GetJob(jobid);

@@ -198,47 +198,24 @@ namespace TomTomCall.ServiceReference1 {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShowMessagesParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearTextMessagesParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(QueueServiceParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SimpleTextMessageParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MessageIdentityParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderMessageReportParameters))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearOrdersParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderReportParameters))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DeleteOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AssignOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShowWaypointsParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderIdentityParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverVehicleAssignmentParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ManagedIntegerParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ManagedFloatParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ManagedEventLevelParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ResultQuantifierParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(FilterParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressFilterParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectFilterParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverFilterParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressFilterParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedReAssignOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedAssignOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedUpdateDestinationOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedSendOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedInsertOrderParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedUpdateOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ItnWaypointParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AdvancedSendDestinationOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DateRange))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeneralParameters))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(AuthenticationParameters))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoutingParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeocodingByProviderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ContactParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeoPositionParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicLocationParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NearestVehicleParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(SwitchOutputParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectToGroupParameter))]
@@ -253,7 +230,30 @@ namespace TomTomCall.ServiceReference1 {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverGroupParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverIdentityParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DeleteDriverParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearOrdersParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderReportParameters))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DeleteOrderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AssignOrderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShowWaypointsParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ItnWaypointParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderIdentityParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicOrderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ShowMessagesParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearTextMessagesParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(QueueServiceParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SimpleTextMessageParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DateRange))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MessageIdentityParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectIdentityParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderMessageReportParameters))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(RoutingParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeocodingByProviderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ContactParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeoPositionParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicLocationParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationParameter))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -933,31 +933,6 @@ namespace TomTomCall.ServiceReference1 {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(KeyValuePair))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NearestVehicleTO))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SwitchOutputTO))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverVehicleAssignment))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ItnWaypoint))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ErrorInfo))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceWriteOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceQueryOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosition))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosWithCoordinates))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosition))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosWithCoordinates))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearedOrders))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderAddress))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderState))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReportedOrderData))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicDestinationOrder))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrder))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Travel))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GPSFix))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicPosition))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReportedOrderMessageData))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverIdentityAndName))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicDriver))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverGroupDriverRelationship))]
@@ -999,28 +974,53 @@ namespace TomTomCall.ServiceReference1 {
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderIdentity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicOrder))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(QueueServiceData))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MapInfo))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DeviceIdentity))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Pnd))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Obu))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Sim))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Contract))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(TextMessage))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MessageIdentity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosition))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosWithCoordinates))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosition))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosWithCoordinates))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ClearedOrders))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderAddress))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(OrderState))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReportedOrderData))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicDestinationOrder))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrder))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Travel))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GPSFix))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicPosition))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverIdentity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressIdentity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(NavDestination))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicGeoPosition))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeoPosition))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectIdentity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DetailedVehicleParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(WakeupTimersTO))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(objectDetails))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ContractDevice))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicObject))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectReport))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MobileObject))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DetailedVehicleParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(TextMessage))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MessageIdentity))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicMessage))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressIdentity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ReportedOrderMessageData))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(KeyValuePair))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(NearestVehicleTO))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(SwitchOutputTO))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverVehicleAssignment))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(MapInfo))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DeviceIdentity))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Pnd))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Obu))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Sim))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(Contract))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ItnWaypoint))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ErrorInfo))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceWriteOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceQueryOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -1043,1921 +1043,17 @@ namespace TomTomCall.ServiceReference1 {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class KeyValuePair : TransferObjectBase {
-        
-        private string keyField;
-        
-        private string valueField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string key {
-            get {
-                return this.keyField;
-            }
-            set {
-                this.keyField = value;
-                this.RaisePropertyChanged("key");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("value");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class NearestVehicleTO : TransferObjectBase {
-        
-        private string objectNoField;
-        
-        private string objectUidField;
-        
-        private System.Nullable<objectState> objectStateField;
-        
-        private bool objectStateFieldSpecified;
-        
-        private System.Nullable<int> latitudeField;
-        
-        private bool latitudeFieldSpecified;
-        
-        private System.Nullable<int> longitudeField;
-        
-        private bool longitudeFieldSpecified;
-        
-        private System.Nullable<long> linearDistanceField;
-        
-        private bool linearDistanceFieldSpecified;
-        
-        private System.Nullable<long> routeDistanceField;
-        
-        private bool routeDistanceFieldSpecified;
-        
-        private System.Nullable<int> routeTimeField;
-        
-        private bool routeTimeFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<objectState> objectState {
-            get {
-                return this.objectStateField;
-            }
-            set {
-                this.objectStateField = value;
-                this.RaisePropertyChanged("objectState");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool objectStateSpecified {
-            get {
-                return this.objectStateFieldSpecified;
-            }
-            set {
-                this.objectStateFieldSpecified = value;
-                this.RaisePropertyChanged("objectStateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<int> latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool latitudeSpecified {
-            get {
-                return this.latitudeFieldSpecified;
-            }
-            set {
-                this.latitudeFieldSpecified = value;
-                this.RaisePropertyChanged("latitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public System.Nullable<int> longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("longitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool longitudeSpecified {
-            get {
-                return this.longitudeFieldSpecified;
-            }
-            set {
-                this.longitudeFieldSpecified = value;
-                this.RaisePropertyChanged("longitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public System.Nullable<long> linearDistance {
-            get {
-                return this.linearDistanceField;
-            }
-            set {
-                this.linearDistanceField = value;
-                this.RaisePropertyChanged("linearDistance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool linearDistanceSpecified {
-            get {
-                return this.linearDistanceFieldSpecified;
-            }
-            set {
-                this.linearDistanceFieldSpecified = value;
-                this.RaisePropertyChanged("linearDistanceSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public System.Nullable<long> routeDistance {
-            get {
-                return this.routeDistanceField;
-            }
-            set {
-                this.routeDistanceField = value;
-                this.RaisePropertyChanged("routeDistance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool routeDistanceSpecified {
-            get {
-                return this.routeDistanceFieldSpecified;
-            }
-            set {
-                this.routeDistanceFieldSpecified = value;
-                this.RaisePropertyChanged("routeDistanceSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
-        public System.Nullable<int> routeTime {
-            get {
-                return this.routeTimeField;
-            }
-            set {
-                this.routeTimeField = value;
-                this.RaisePropertyChanged("routeTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool routeTimeSpecified {
-            get {
-                return this.routeTimeFieldSpecified;
-            }
-            set {
-                this.routeTimeFieldSpecified = value;
-                this.RaisePropertyChanged("routeTimeSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public enum objectState {
-        
-        /// <remarks/>
-        AVAILABLE,
-        
-        /// <remarks/>
-        HAS_ORDER,
-        
-        /// <remarks/>
-        OFFLINE,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class SwitchOutputTO : TransferObjectBase {
-        
-        private string objectNoField;
-        
-        private string objectUidField;
-        
-        private int statusField;
-        
-        private bool statusFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public int status {
-            get {
-                return this.statusField;
-            }
-            set {
-                this.statusField = value;
-                this.RaisePropertyChanged("status");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool statusSpecified {
-            get {
-                return this.statusFieldSpecified;
-            }
-            set {
-                this.statusFieldSpecified = value;
-                this.RaisePropertyChanged("statusSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class DriverVehicleAssignment : TransferObjectBase {
-        
-        private string driverNoField;
-        
-        private string objectNoField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string driverNo {
-            get {
-                return this.driverNoField;
-            }
-            set {
-                this.driverNoField = value;
-                this.RaisePropertyChanged("driverNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class ItnWaypoint : TransferObjectBase {
-        
-        private int waypointNoField;
-        
-        private bool waypointNoFieldSpecified;
-        
-        private int latitudeField;
-        
-        private bool latitudeFieldSpecified;
-        
-        private int longitudeField;
-        
-        private bool longitudeFieldSpecified;
-        
-        private string descriptionField;
-        
-        private bool showInListField;
-        
-        private bool showInListFieldSpecified;
-        
-        private bool notifyPassingField;
-        
-        private bool notifyPassingFieldSpecified;
-        
-        private ItnWaypointState stateField;
-        
-        private bool stateFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int waypointNo {
-            get {
-                return this.waypointNoField;
-            }
-            set {
-                this.waypointNoField = value;
-                this.RaisePropertyChanged("waypointNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool waypointNoSpecified {
-            get {
-                return this.waypointNoFieldSpecified;
-            }
-            set {
-                this.waypointNoFieldSpecified = value;
-                this.RaisePropertyChanged("waypointNoSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public int latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool latitudeSpecified {
-            get {
-                return this.latitudeFieldSpecified;
-            }
-            set {
-                this.latitudeFieldSpecified = value;
-                this.RaisePropertyChanged("latitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public int longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("longitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool longitudeSpecified {
-            get {
-                return this.longitudeFieldSpecified;
-            }
-            set {
-                this.longitudeFieldSpecified = value;
-                this.RaisePropertyChanged("longitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public string description {
-            get {
-                return this.descriptionField;
-            }
-            set {
-                this.descriptionField = value;
-                this.RaisePropertyChanged("description");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public bool showInList {
-            get {
-                return this.showInListField;
-            }
-            set {
-                this.showInListField = value;
-                this.RaisePropertyChanged("showInList");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool showInListSpecified {
-            get {
-                return this.showInListFieldSpecified;
-            }
-            set {
-                this.showInListFieldSpecified = value;
-                this.RaisePropertyChanged("showInListSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
-        public bool notifyPassing {
-            get {
-                return this.notifyPassingField;
-            }
-            set {
-                this.notifyPassingField = value;
-                this.RaisePropertyChanged("notifyPassing");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool notifyPassingSpecified {
-            get {
-                return this.notifyPassingFieldSpecified;
-            }
-            set {
-                this.notifyPassingFieldSpecified = value;
-                this.RaisePropertyChanged("notifyPassingSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=6)]
-        public ItnWaypointState state {
-            get {
-                return this.stateField;
-            }
-            set {
-                this.stateField = value;
-                this.RaisePropertyChanged("state");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool stateSpecified {
-            get {
-                return this.stateFieldSpecified;
-            }
-            set {
-                this.stateFieldSpecified = value;
-                this.RaisePropertyChanged("stateSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public enum ItnWaypointState {
-        
-        /// <remarks/>
-        NORMAL,
-        
-        /// <remarks/>
-        REJECTED,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class ErrorInfo : TransferObjectBase {
-        
-        private string msgField;
-        
-        private string objectNameField;
-        
-        private string fieldNameField;
-        
-        public ErrorInfo() {
-            this.msgField = "";
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string msg {
-            get {
-                return this.msgField;
-            }
-            set {
-                this.msgField = value;
-                this.RaisePropertyChanged("msg");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectName {
-            get {
-                return this.objectNameField;
-            }
-            set {
-                this.objectNameField = value;
-                this.RaisePropertyChanged("objectName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string fieldName {
-            get {
-                return this.fieldNameField;
-            }
-            set {
-                this.fieldNameField = value;
-                this.RaisePropertyChanged("fieldName");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceWriteOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceQueryOpResult))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public abstract partial class ServiceOpResult : TransferObjectBase {
-        
-        private int statusCodeField;
-        
-        private string statusMessageField;
-        
-        private ErrorInfo[] errorsField;
-        
-        public ServiceOpResult() {
-            this.statusCodeField = -1;
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int statusCode {
-            get {
-                return this.statusCodeField;
-            }
-            set {
-                this.statusCodeField = value;
-                this.RaisePropertyChanged("statusCode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string statusMessage {
-            get {
-                return this.statusMessageField;
-            }
-            set {
-                this.statusMessageField = value;
-                this.RaisePropertyChanged("statusMessage");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("errorInfo", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public ErrorInfo[] errors {
-            get {
-                return this.errorsField;
-            }
-            set {
-                this.errorsField = value;
-                this.RaisePropertyChanged("errors");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class ServiceWriteOpResult : ServiceOpResult {
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class GenericServiceWriteOpResult : ServiceWriteOpResult {
-        
-        private TransferObjectBase failedField;
-        
-        private TransferObjectBase succeededField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public TransferObjectBase failed {
-            get {
-                return this.failedField;
-            }
-            set {
-                this.failedField = value;
-                this.RaisePropertyChanged("failed");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public TransferObjectBase succeeded {
-            get {
-                return this.succeededField;
-            }
-            set {
-                this.succeededField = value;
-                this.RaisePropertyChanged("succeeded");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class ServiceQueryOpResult : ServiceOpResult {
-        
-        private int resultSizeField;
-        
-        public ServiceQueryOpResult() {
-            this.resultSizeField = 0;
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int resultSize {
-            get {
-                return this.resultSizeField;
-            }
-            set {
-                this.resultSizeField = value;
-                this.RaisePropertyChanged("resultSize");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
-    public partial class GenericServiceQueryOpResult : ServiceQueryOpResult {
-        
-        private TransferObjectBase[] resultsField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("resultItem", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
-        public TransferObjectBase[] results {
-            get {
-                return this.resultsField;
-            }
-            set {
-                this.resultsField = value;
-                this.RaisePropertyChanged("results");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosWithCoordinates))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class StartAndEndPosition : TransferObjectBase {
-        
-        private int startOdometerField;
-        
-        private bool startOdometerFieldSpecified;
-        
-        private string startPosTextField;
-        
-        private System.DateTime startDateAndTimeField;
-        
-        private bool startDateAndTimeFieldSpecified;
-        
-        private int endOdometerField;
-        
-        private bool endOdometerFieldSpecified;
-        
-        private string endPosTextField;
-        
-        private System.DateTime endDateAndTimeField;
-        
-        private bool endDateAndTimeFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int startOdometer {
-            get {
-                return this.startOdometerField;
-            }
-            set {
-                this.startOdometerField = value;
-                this.RaisePropertyChanged("startOdometer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool startOdometerSpecified {
-            get {
-                return this.startOdometerFieldSpecified;
-            }
-            set {
-                this.startOdometerFieldSpecified = value;
-                this.RaisePropertyChanged("startOdometerSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string startPosText {
-            get {
-                return this.startPosTextField;
-            }
-            set {
-                this.startPosTextField = value;
-                this.RaisePropertyChanged("startPosText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public System.DateTime startDateAndTime {
-            get {
-                return this.startDateAndTimeField;
-            }
-            set {
-                this.startDateAndTimeField = value;
-                this.RaisePropertyChanged("startDateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool startDateAndTimeSpecified {
-            get {
-                return this.startDateAndTimeFieldSpecified;
-            }
-            set {
-                this.startDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("startDateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public int endOdometer {
-            get {
-                return this.endOdometerField;
-            }
-            set {
-                this.endOdometerField = value;
-                this.RaisePropertyChanged("endOdometer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool endOdometerSpecified {
-            get {
-                return this.endOdometerFieldSpecified;
-            }
-            set {
-                this.endOdometerFieldSpecified = value;
-                this.RaisePropertyChanged("endOdometerSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public string endPosText {
-            get {
-                return this.endPosTextField;
-            }
-            set {
-                this.endPosTextField = value;
-                this.RaisePropertyChanged("endPosText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
-        public System.DateTime endDateAndTime {
-            get {
-                return this.endDateAndTimeField;
-            }
-            set {
-                this.endDateAndTimeField = value;
-                this.RaisePropertyChanged("endDateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool endDateAndTimeSpecified {
-            get {
-                return this.endDateAndTimeFieldSpecified;
-            }
-            set {
-                this.endDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("endDateAndTimeSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class StartAndEndPosWithCoordinates : StartAndEndPosition {
-        
-        private GeoPosition startPosField;
-        
-        private GeoPosition endPosField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public GeoPosition startPos {
-            get {
-                return this.startPosField;
-            }
-            set {
-                this.startPosField = value;
-                this.RaisePropertyChanged("startPos");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public GeoPosition endPos {
-            get {
-                return this.endPosField;
-            }
-            set {
-                this.endPosField = value;
-                this.RaisePropertyChanged("endPos");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class GeoPosition : BasicGeoPosition {
-        
-        private string latitudeHumanReadableField;
-        
-        private string longitudeHumanReadableField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string latitudeHumanReadable {
-            get {
-                return this.latitudeHumanReadableField;
-            }
-            set {
-                this.latitudeHumanReadableField = value;
-                this.RaisePropertyChanged("latitudeHumanReadable");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string longitudeHumanReadable {
-            get {
-                return this.longitudeHumanReadableField;
-            }
-            set {
-                this.longitudeHumanReadableField = value;
-                this.RaisePropertyChanged("longitudeHumanReadable");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeoPosition))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class BasicGeoPosition : TransferObjectBase {
-        
-        private System.Nullable<int> latitudeField;
-        
-        private bool latitudeFieldSpecified;
-        
-        private System.Nullable<int> longitudeField;
-        
-        private bool longitudeFieldSpecified;
-        
-        private string mapcodeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public System.Nullable<int> latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool latitudeSpecified {
-            get {
-                return this.latitudeFieldSpecified;
-            }
-            set {
-                this.latitudeFieldSpecified = value;
-                this.RaisePropertyChanged("latitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public System.Nullable<int> longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("longitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool longitudeSpecified {
-            get {
-                return this.longitudeFieldSpecified;
-            }
-            set {
-                this.longitudeFieldSpecified = value;
-                this.RaisePropertyChanged("longitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string mapcode {
-            get {
-                return this.mapcodeField;
-            }
-            set {
-                this.mapcodeField = value;
-                this.RaisePropertyChanged("mapcode");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosWithCoordinates))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class BasicStartAndEndPosition : TransferObjectBase {
-        
-        private string startPosTextField;
-        
-        private System.DateTime startDateAndTimeField;
-        
-        private bool startDateAndTimeFieldSpecified;
-        
-        private string endPosTextField;
-        
-        private System.DateTime endDateAndTimeField;
-        
-        private bool endDateAndTimeFieldSpecified;
-        
-        private long durationField;
-        
-        private bool durationFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string startPosText {
-            get {
-                return this.startPosTextField;
-            }
-            set {
-                this.startPosTextField = value;
-                this.RaisePropertyChanged("startPosText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public System.DateTime startDateAndTime {
-            get {
-                return this.startDateAndTimeField;
-            }
-            set {
-                this.startDateAndTimeField = value;
-                this.RaisePropertyChanged("startDateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool startDateAndTimeSpecified {
-            get {
-                return this.startDateAndTimeFieldSpecified;
-            }
-            set {
-                this.startDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("startDateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public string endPosText {
-            get {
-                return this.endPosTextField;
-            }
-            set {
-                this.endPosTextField = value;
-                this.RaisePropertyChanged("endPosText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public System.DateTime endDateAndTime {
-            get {
-                return this.endDateAndTimeField;
-            }
-            set {
-                this.endDateAndTimeField = value;
-                this.RaisePropertyChanged("endDateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool endDateAndTimeSpecified {
-            get {
-                return this.endDateAndTimeFieldSpecified;
-            }
-            set {
-                this.endDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("endDateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public long duration {
-            get {
-                return this.durationField;
-            }
-            set {
-                this.durationField = value;
-                this.RaisePropertyChanged("duration");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool durationSpecified {
-            get {
-                return this.durationFieldSpecified;
-            }
-            set {
-                this.durationFieldSpecified = value;
-                this.RaisePropertyChanged("durationSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class BasicStartAndEndPosWithCoordinates : BasicStartAndEndPosition {
-        
-        private BasicGeoPosition startPosField;
-        
-        private BasicGeoPosition endPosField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public BasicGeoPosition startPos {
-            get {
-                return this.startPosField;
-            }
-            set {
-                this.startPosField = value;
-                this.RaisePropertyChanged("startPos");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public BasicGeoPosition endPos {
-            get {
-                return this.endPosField;
-            }
-            set {
-                this.endPosField = value;
-                this.RaisePropertyChanged("endPos");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class ClearedOrders : TransferObjectBase {
-        
-        private bool markDeletedField;
-        
-        private bool markDeletedFieldSpecified;
-        
-        private string objectNoField;
-        
-        private string objectUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public bool markDeleted {
-            get {
-                return this.markDeletedField;
-            }
-            set {
-                this.markDeletedField = value;
-                this.RaisePropertyChanged("markDeleted");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool markDeletedSpecified {
-            get {
-                return this.markDeletedFieldSpecified;
-            }
-            set {
-                this.markDeletedFieldSpecified = value;
-                this.RaisePropertyChanged("markDeletedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class OrderAddress : TransferObjectBase {
-        
-        private string addrNrField;
-        
-        private string zipField;
-        
-        private string cityField;
-        
-        private string streetField;
-        
-        private string countryField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string addrNr {
-            get {
-                return this.addrNrField;
-            }
-            set {
-                this.addrNrField = value;
-                this.RaisePropertyChanged("addrNr");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string zip {
-            get {
-                return this.zipField;
-            }
-            set {
-                this.zipField = value;
-                this.RaisePropertyChanged("zip");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string city {
-            get {
-                return this.cityField;
-            }
-            set {
-                this.cityField = value;
-                this.RaisePropertyChanged("city");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public string street {
-            get {
-                return this.streetField;
-            }
-            set {
-                this.streetField = value;
-                this.RaisePropertyChanged("street");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public string country {
-            get {
-                return this.countryField;
-            }
-            set {
-                this.countryField = value;
-                this.RaisePropertyChanged("country");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class OrderState : TransferObjectBase {
-        
-        private System.Nullable<System.DateTime> timeField;
-        
-        private bool timeFieldSpecified;
-        
-        private string positionTextField;
-        
-        private BasicGeoPosition geoPositionField;
-        
-        private string messageTextField;
-        
-        private OrderStateCode stateCodeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public System.Nullable<System.DateTime> time {
-            get {
-                return this.timeField;
-            }
-            set {
-                this.timeField = value;
-                this.RaisePropertyChanged("time");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool timeSpecified {
-            get {
-                return this.timeFieldSpecified;
-            }
-            set {
-                this.timeFieldSpecified = value;
-                this.RaisePropertyChanged("timeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string positionText {
-            get {
-                return this.positionTextField;
-            }
-            set {
-                this.positionTextField = value;
-                this.RaisePropertyChanged("positionText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public BasicGeoPosition geoPosition {
-            get {
-                return this.geoPositionField;
-            }
-            set {
-                this.geoPositionField = value;
-                this.RaisePropertyChanged("geoPosition");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public string messageText {
-            get {
-                return this.messageTextField;
-            }
-            set {
-                this.messageTextField = value;
-                this.RaisePropertyChanged("messageText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public OrderStateCode stateCode {
-            get {
-                return this.stateCodeField;
-            }
-            set {
-                this.stateCodeField = value;
-                this.RaisePropertyChanged("stateCode");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public enum OrderStateCode {
-        
-        /// <remarks/>
-        NotYetSent,
-        
-        /// <remarks/>
-        Sent,
-        
-        /// <remarks/>
-        Received,
-        
-        /// <remarks/>
-        Read,
-        
-        /// <remarks/>
-        Accepted,
-        
-        /// <remarks/>
-        ServiceOrderStarted,
-        
-        /// <remarks/>
-        ArrivedAtDestination,
-        
-        /// <remarks/>
-        WorkStarted,
-        
-        /// <remarks/>
-        WorkFinished,
-        
-        /// <remarks/>
-        DepartedFromDestination,
-        
-        /// <remarks/>
-        PickupOrderStarted,
-        
-        /// <remarks/>
-        ArrivedAtPickUpLocation,
-        
-        /// <remarks/>
-        PickUpStarted,
-        
-        /// <remarks/>
-        PickUpFinished,
-        
-        /// <remarks/>
-        DepartedFromPickUpLocation,
-        
-        /// <remarks/>
-        DeliveryOrderStarted,
-        
-        /// <remarks/>
-        ArrivedAtDeliveryLocation,
-        
-        /// <remarks/>
-        DeliveryStarted,
-        
-        /// <remarks/>
-        DeliveryFinished,
-        
-        /// <remarks/>
-        DepartedFromDeliveryLocation,
-        
-        /// <remarks/>
-        Resumed,
-        
-        /// <remarks/>
-        Suspended,
-        
-        /// <remarks/>
-        Cancelled,
-        
-        /// <remarks/>
-        Rejected,
-        
-        /// <remarks/>
-        Finished,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class ReportedOrderData : TransferObjectBase {
-        
-        private System.Nullable<System.DateTime> orderDateField;
-        
-        private bool orderDateFieldSpecified;
-        
-        private string orderIdField;
-        
-        private string orderTextField;
-        
-        private System.Nullable<OrderType> orderTypeField;
-        
-        private bool orderTypeFieldSpecified;
-        
-        private BasicObject objectField;
-        
-        private BasicGeoPosition geoPositionField;
-        
-        private string destinationField;
-        
-        private OrderState orderStateField;
-        
-        private System.Nullable<System.DateTime> plannedArrivalTimeField;
-        
-        private bool plannedArrivalTimeFieldSpecified;
-        
-        private System.Nullable<System.DateTime> estimatedArrivalTimeField;
-        
-        private bool estimatedArrivalTimeFieldSpecified;
-        
-        private System.Nullable<ArrivalTolerance> arrivalToleranceField;
-        
-        private bool arrivalToleranceFieldSpecified;
-        
-        private System.Nullable<DelayWarning> delayWarningField;
-        
-        private bool delayWarningFieldSpecified;
-        
-        private System.Nullable<bool> notificationEnabledField;
-        
-        private bool notificationEnabledFieldSpecified;
-        
-        private System.Nullable<int> notificationMinutesField;
-        
-        private bool notificationMinutesFieldSpecified;
-        
-        private string contactField;
-        
-        private string contacttelField;
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class DriverIdentityAndName : TransferObjectBase {
         
         private string driverNoField;
         
         private string driverNameField;
         
-        private string driverTelmobileField;
-        
-        private int waypointCountField;
-        
-        private bool waypointCountFieldSpecified;
-        
-        private OrderAddress orderAddressField;
-        
         private string driverUidField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public System.Nullable<System.DateTime> orderDate {
-            get {
-                return this.orderDateField;
-            }
-            set {
-                this.orderDateField = value;
-                this.RaisePropertyChanged("orderDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderDateSpecified {
-            get {
-                return this.orderDateFieldSpecified;
-            }
-            set {
-                this.orderDateFieldSpecified = value;
-                this.RaisePropertyChanged("orderDateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string orderId {
-            get {
-                return this.orderIdField;
-            }
-            set {
-                this.orderIdField = value;
-                this.RaisePropertyChanged("orderId");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string orderText {
-            get {
-                return this.orderTextField;
-            }
-            set {
-                this.orderTextField = value;
-                this.RaisePropertyChanged("orderText");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<OrderType> orderType {
-            get {
-                return this.orderTypeField;
-            }
-            set {
-                this.orderTypeField = value;
-                this.RaisePropertyChanged("orderType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderTypeSpecified {
-            get {
-                return this.orderTypeFieldSpecified;
-            }
-            set {
-                this.orderTypeFieldSpecified = value;
-                this.RaisePropertyChanged("orderTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public BasicObject @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public BasicGeoPosition geoPosition {
-            get {
-                return this.geoPositionField;
-            }
-            set {
-                this.geoPositionField = value;
-                this.RaisePropertyChanged("geoPosition");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public string destination {
-            get {
-                return this.destinationField;
-            }
-            set {
-                this.destinationField = value;
-                this.RaisePropertyChanged("destination");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
-        public OrderState orderState {
-            get {
-                return this.orderStateField;
-            }
-            set {
-                this.orderStateField = value;
-                this.RaisePropertyChanged("orderState");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
-        public System.Nullable<System.DateTime> plannedArrivalTime {
-            get {
-                return this.plannedArrivalTimeField;
-            }
-            set {
-                this.plannedArrivalTimeField = value;
-                this.RaisePropertyChanged("plannedArrivalTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool plannedArrivalTimeSpecified {
-            get {
-                return this.plannedArrivalTimeFieldSpecified;
-            }
-            set {
-                this.plannedArrivalTimeFieldSpecified = value;
-                this.RaisePropertyChanged("plannedArrivalTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
-        public System.Nullable<System.DateTime> estimatedArrivalTime {
-            get {
-                return this.estimatedArrivalTimeField;
-            }
-            set {
-                this.estimatedArrivalTimeField = value;
-                this.RaisePropertyChanged("estimatedArrivalTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool estimatedArrivalTimeSpecified {
-            get {
-                return this.estimatedArrivalTimeFieldSpecified;
-            }
-            set {
-                this.estimatedArrivalTimeFieldSpecified = value;
-                this.RaisePropertyChanged("estimatedArrivalTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
-        public System.Nullable<ArrivalTolerance> arrivalTolerance {
-            get {
-                return this.arrivalToleranceField;
-            }
-            set {
-                this.arrivalToleranceField = value;
-                this.RaisePropertyChanged("arrivalTolerance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool arrivalToleranceSpecified {
-            get {
-                return this.arrivalToleranceFieldSpecified;
-            }
-            set {
-                this.arrivalToleranceFieldSpecified = value;
-                this.RaisePropertyChanged("arrivalToleranceSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=11)]
-        public System.Nullable<DelayWarning> delayWarning {
-            get {
-                return this.delayWarningField;
-            }
-            set {
-                this.delayWarningField = value;
-                this.RaisePropertyChanged("delayWarning");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool delayWarningSpecified {
-            get {
-                return this.delayWarningFieldSpecified;
-            }
-            set {
-                this.delayWarningFieldSpecified = value;
-                this.RaisePropertyChanged("delayWarningSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=12)]
-        public System.Nullable<bool> notificationEnabled {
-            get {
-                return this.notificationEnabledField;
-            }
-            set {
-                this.notificationEnabledField = value;
-                this.RaisePropertyChanged("notificationEnabled");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool notificationEnabledSpecified {
-            get {
-                return this.notificationEnabledFieldSpecified;
-            }
-            set {
-                this.notificationEnabledFieldSpecified = value;
-                this.RaisePropertyChanged("notificationEnabledSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=13)]
-        public System.Nullable<int> notificationMinutes {
-            get {
-                return this.notificationMinutesField;
-            }
-            set {
-                this.notificationMinutesField = value;
-                this.RaisePropertyChanged("notificationMinutes");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool notificationMinutesSpecified {
-            get {
-                return this.notificationMinutesFieldSpecified;
-            }
-            set {
-                this.notificationMinutesFieldSpecified = value;
-                this.RaisePropertyChanged("notificationMinutesSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=14)]
-        public string contact {
-            get {
-                return this.contactField;
-            }
-            set {
-                this.contactField = value;
-                this.RaisePropertyChanged("contact");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=15)]
-        public string contacttel {
-            get {
-                return this.contacttelField;
-            }
-            set {
-                this.contacttelField = value;
-                this.RaisePropertyChanged("contacttel");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=16)]
+        [System.Xml.Serialization.XmlAttributeAttribute()]
         public string driverNo {
             get {
                 return this.driverNoField;
@@ -2969,7 +1065,7 @@ namespace TomTomCall.ServiceReference1 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=17)]
+        [System.Xml.Serialization.XmlAttributeAttribute()]
         public string driverName {
             get {
                 return this.driverNameField;
@@ -2981,55 +1077,7 @@ namespace TomTomCall.ServiceReference1 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=18)]
-        public string driverTelmobile {
-            get {
-                return this.driverTelmobileField;
-            }
-            set {
-                this.driverTelmobileField = value;
-                this.RaisePropertyChanged("driverTelmobile");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=19)]
-        public int waypointCount {
-            get {
-                return this.waypointCountField;
-            }
-            set {
-                this.waypointCountField = value;
-                this.RaisePropertyChanged("waypointCount");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool waypointCountSpecified {
-            get {
-                return this.waypointCountFieldSpecified;
-            }
-            set {
-                this.waypointCountFieldSpecified = value;
-                this.RaisePropertyChanged("waypointCountSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=20)]
-        public OrderAddress orderAddress {
-            get {
-                return this.orderAddressField;
-            }
-            set {
-                this.orderAddressField = value;
-                this.RaisePropertyChanged("orderAddress");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=21)]
+        [System.Xml.Serialization.XmlAttributeAttribute()]
         public string driverUid {
             get {
                 return this.driverUidField;
@@ -3044,17 +1092,279 @@ namespace TomTomCall.ServiceReference1 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public enum OrderType {
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class BasicDriver : TransferObjectBase {
+        
+        private string driverNameField;
+        
+        private string driverNoField;
+        
+        private string driverUidField;
         
         /// <remarks/>
-        SERVICE_ORDER,
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string driverName {
+            get {
+                return this.driverNameField;
+            }
+            set {
+                this.driverNameField = value;
+                this.RaisePropertyChanged("driverName");
+            }
+        }
         
         /// <remarks/>
-        PICKUP_ORDER,
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string driverNo {
+            get {
+                return this.driverNoField;
+            }
+            set {
+                this.driverNoField = value;
+                this.RaisePropertyChanged("driverNo");
+            }
+        }
         
         /// <remarks/>
-        DELIVERY_ORDER,
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string driverUid {
+            get {
+                return this.driverUidField;
+            }
+            set {
+                this.driverUidField = value;
+                this.RaisePropertyChanged("driverUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class DriverGroupDriverRelationship : TransferObjectBase {
+        
+        private string driverNoField;
+        
+        private string groupNameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string driverNo {
+            get {
+                return this.driverNoField;
+            }
+            set {
+                this.driverNoField = value;
+                this.RaisePropertyChanged("driverNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string groupName {
+            get {
+                return this.groupNameField;
+            }
+            set {
+                this.groupNameField = value;
+                this.RaisePropertyChanged("groupName");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class DriverGroup : TransferObjectBase {
+        
+        private string driverGroupNameField;
+        
+        private string driverGroupUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string driverGroupName {
+            get {
+                return this.driverGroupNameField;
+            }
+            set {
+                this.driverGroupNameField = value;
+                this.RaisePropertyChanged("driverGroupName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string driverGroupUid {
+            get {
+                return this.driverGroupUidField;
+            }
+            set {
+                this.driverGroupUidField = value;
+                this.RaisePropertyChanged("driverGroupUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class PersonName : TransferObjectBase {
+        
+        private string name1Field;
+        
+        private string name2Field;
+        
+        private string name3Field;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string name1 {
+            get {
+                return this.name1Field;
+            }
+            set {
+                this.name1Field = value;
+                this.RaisePropertyChanged("name1");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string name2 {
+            get {
+                return this.name2Field;
+            }
+            set {
+                this.name2Field = value;
+                this.RaisePropertyChanged("name2");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public string name3 {
+            get {
+                return this.name3Field;
+            }
+            set {
+                this.name3Field = value;
+                this.RaisePropertyChanged("name3");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class ObjectGroupObjectRelation : TransferObjectBase {
+        
+        private ObjectGroupIdentity objectGroupField;
+        
+        private BasicObject objectField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public ObjectGroupIdentity objectGroup {
+            get {
+                return this.objectGroupField;
+            }
+            set {
+                this.objectGroupField = value;
+                this.RaisePropertyChanged("objectGroup");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public BasicObject @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
+    public partial class ObjectGroupIdentity : TransferObjectBase {
+        
+        private string nameField;
+        
+        private int objectCountField;
+        
+        private bool objectCountFieldSpecified;
+        
+        private string objectGroupUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string name {
+            get {
+                return this.nameField;
+            }
+            set {
+                this.nameField = value;
+                this.RaisePropertyChanged("name");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int objectCount {
+            get {
+                return this.objectCountField;
+            }
+            set {
+                this.objectCountField = value;
+                this.RaisePropertyChanged("objectCount");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool objectCountSpecified {
+            get {
+                return this.objectCountFieldSpecified;
+            }
+            set {
+                this.objectCountFieldSpecified = value;
+                this.RaisePropertyChanged("objectCountSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectGroupUid {
+            get {
+                return this.objectGroupUidField;
+            }
+            set {
+                this.objectGroupUidField = value;
+                this.RaisePropertyChanged("objectGroupUid");
+            }
+        }
     }
     
     /// <remarks/>
@@ -3083,13 +1393,13 @@ namespace TomTomCall.ServiceReference1 {
     }
     
     /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DetailedVehicleParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(WakeupTimersTO))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(objectDetails))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ContractDevice))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicObject))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectReport))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MobileObject))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DetailedVehicleParameter))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -3138,6 +1448,878 @@ namespace TomTomCall.ServiceReference1 {
                 this.RaisePropertyChanged("externalId");
             }
         }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public partial class DetailedVehicleParameter : ObjectIdentity {
+        
+        private System.Nullable<VehicleType> vehicleTypeField;
+        
+        private bool vehicleTypeFieldSpecified;
+        
+        private System.Nullable<VehicleColour> vehicleColorField;
+        
+        private bool vehicleColorFieldSpecified;
+        
+        private string identNumberField;
+        
+        private string registrationDateField;
+        
+        private string denotationField;
+        
+        private string licensePlateNumberField;
+        
+        private ManagedFloatParameter speedLimitField;
+        
+        private ManagedFloatParameter fuelConsumptionField;
+        
+        private System.Nullable<FuelType> fuelTypeField;
+        
+        private bool fuelTypeFieldSpecified;
+        
+        private System.Nullable<float> netWeightField;
+        
+        private bool netWeightFieldSpecified;
+        
+        private System.Nullable<float> maxWeightField;
+        
+        private bool maxWeightFieldSpecified;
+        
+        private System.Nullable<float> netLoadField;
+        
+        private bool netLoadFieldSpecified;
+        
+        private System.Nullable<int> numAxlesField;
+        
+        private bool numAxlesFieldSpecified;
+        
+        private System.Nullable<int> lengthField;
+        
+        private bool lengthFieldSpecified;
+        
+        private System.Nullable<int> widthField;
+        
+        private bool widthFieldSpecified;
+        
+        private System.Nullable<int> heightField;
+        
+        private bool heightFieldSpecified;
+        
+        private string descriptionField;
+        
+        private System.Nullable<float> powerField;
+        
+        private bool powerFieldSpecified;
+        
+        private System.Nullable<bool> resetFuelAverageField;
+        
+        private bool resetFuelAverageFieldSpecified;
+        
+        private System.Nullable<int> engineSizeField;
+        
+        private bool engineSizeFieldSpecified;
+        
+        private System.Nullable<long> odometerField;
+        
+        private bool odometerFieldSpecified;
+        
+        private ManagedIntegerParameter rpmLimitField;
+        
+        private ManagedIntegerParameter fuelTankSizeField;
+        
+        private string epBTAddressField;
+        
+        private string rllBTAddressField;
+        
+        private System.Nullable<EpType> epTypeField;
+        
+        private bool epTypeFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public System.Nullable<VehicleType> vehicleType {
+            get {
+                return this.vehicleTypeField;
+            }
+            set {
+                this.vehicleTypeField = value;
+                this.RaisePropertyChanged("vehicleType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool vehicleTypeSpecified {
+            get {
+                return this.vehicleTypeFieldSpecified;
+            }
+            set {
+                this.vehicleTypeFieldSpecified = value;
+                this.RaisePropertyChanged("vehicleTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public System.Nullable<VehicleColour> vehicleColor {
+            get {
+                return this.vehicleColorField;
+            }
+            set {
+                this.vehicleColorField = value;
+                this.RaisePropertyChanged("vehicleColor");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool vehicleColorSpecified {
+            get {
+                return this.vehicleColorFieldSpecified;
+            }
+            set {
+                this.vehicleColorFieldSpecified = value;
+                this.RaisePropertyChanged("vehicleColorSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string identNumber {
+            get {
+                return this.identNumberField;
+            }
+            set {
+                this.identNumberField = value;
+                this.RaisePropertyChanged("identNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public string registrationDate {
+            get {
+                return this.registrationDateField;
+            }
+            set {
+                this.registrationDateField = value;
+                this.RaisePropertyChanged("registrationDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public string denotation {
+            get {
+                return this.denotationField;
+            }
+            set {
+                this.denotationField = value;
+                this.RaisePropertyChanged("denotation");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public string licensePlateNumber {
+            get {
+                return this.licensePlateNumberField;
+            }
+            set {
+                this.licensePlateNumberField = value;
+                this.RaisePropertyChanged("licensePlateNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public ManagedFloatParameter speedLimit {
+            get {
+                return this.speedLimitField;
+            }
+            set {
+                this.speedLimitField = value;
+                this.RaisePropertyChanged("speedLimit");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
+        public ManagedFloatParameter fuelConsumption {
+            get {
+                return this.fuelConsumptionField;
+            }
+            set {
+                this.fuelConsumptionField = value;
+                this.RaisePropertyChanged("fuelConsumption");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
+        public System.Nullable<FuelType> fuelType {
+            get {
+                return this.fuelTypeField;
+            }
+            set {
+                this.fuelTypeField = value;
+                this.RaisePropertyChanged("fuelType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool fuelTypeSpecified {
+            get {
+                return this.fuelTypeFieldSpecified;
+            }
+            set {
+                this.fuelTypeFieldSpecified = value;
+                this.RaisePropertyChanged("fuelTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
+        public System.Nullable<float> netWeight {
+            get {
+                return this.netWeightField;
+            }
+            set {
+                this.netWeightField = value;
+                this.RaisePropertyChanged("netWeight");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool netWeightSpecified {
+            get {
+                return this.netWeightFieldSpecified;
+            }
+            set {
+                this.netWeightFieldSpecified = value;
+                this.RaisePropertyChanged("netWeightSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
+        public System.Nullable<float> maxWeight {
+            get {
+                return this.maxWeightField;
+            }
+            set {
+                this.maxWeightField = value;
+                this.RaisePropertyChanged("maxWeight");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool maxWeightSpecified {
+            get {
+                return this.maxWeightFieldSpecified;
+            }
+            set {
+                this.maxWeightFieldSpecified = value;
+                this.RaisePropertyChanged("maxWeightSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=11)]
+        public System.Nullable<float> netLoad {
+            get {
+                return this.netLoadField;
+            }
+            set {
+                this.netLoadField = value;
+                this.RaisePropertyChanged("netLoad");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool netLoadSpecified {
+            get {
+                return this.netLoadFieldSpecified;
+            }
+            set {
+                this.netLoadFieldSpecified = value;
+                this.RaisePropertyChanged("netLoadSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=12)]
+        public System.Nullable<int> numAxles {
+            get {
+                return this.numAxlesField;
+            }
+            set {
+                this.numAxlesField = value;
+                this.RaisePropertyChanged("numAxles");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool numAxlesSpecified {
+            get {
+                return this.numAxlesFieldSpecified;
+            }
+            set {
+                this.numAxlesFieldSpecified = value;
+                this.RaisePropertyChanged("numAxlesSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=13)]
+        public System.Nullable<int> length {
+            get {
+                return this.lengthField;
+            }
+            set {
+                this.lengthField = value;
+                this.RaisePropertyChanged("length");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool lengthSpecified {
+            get {
+                return this.lengthFieldSpecified;
+            }
+            set {
+                this.lengthFieldSpecified = value;
+                this.RaisePropertyChanged("lengthSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=14)]
+        public System.Nullable<int> width {
+            get {
+                return this.widthField;
+            }
+            set {
+                this.widthField = value;
+                this.RaisePropertyChanged("width");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool widthSpecified {
+            get {
+                return this.widthFieldSpecified;
+            }
+            set {
+                this.widthFieldSpecified = value;
+                this.RaisePropertyChanged("widthSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=15)]
+        public System.Nullable<int> height {
+            get {
+                return this.heightField;
+            }
+            set {
+                this.heightField = value;
+                this.RaisePropertyChanged("height");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool heightSpecified {
+            get {
+                return this.heightFieldSpecified;
+            }
+            set {
+                this.heightFieldSpecified = value;
+                this.RaisePropertyChanged("heightSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=16)]
+        public string description {
+            get {
+                return this.descriptionField;
+            }
+            set {
+                this.descriptionField = value;
+                this.RaisePropertyChanged("description");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=17)]
+        public System.Nullable<float> power {
+            get {
+                return this.powerField;
+            }
+            set {
+                this.powerField = value;
+                this.RaisePropertyChanged("power");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool powerSpecified {
+            get {
+                return this.powerFieldSpecified;
+            }
+            set {
+                this.powerFieldSpecified = value;
+                this.RaisePropertyChanged("powerSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=18)]
+        public System.Nullable<bool> resetFuelAverage {
+            get {
+                return this.resetFuelAverageField;
+            }
+            set {
+                this.resetFuelAverageField = value;
+                this.RaisePropertyChanged("resetFuelAverage");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool resetFuelAverageSpecified {
+            get {
+                return this.resetFuelAverageFieldSpecified;
+            }
+            set {
+                this.resetFuelAverageFieldSpecified = value;
+                this.RaisePropertyChanged("resetFuelAverageSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=19)]
+        public System.Nullable<int> engineSize {
+            get {
+                return this.engineSizeField;
+            }
+            set {
+                this.engineSizeField = value;
+                this.RaisePropertyChanged("engineSize");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool engineSizeSpecified {
+            get {
+                return this.engineSizeFieldSpecified;
+            }
+            set {
+                this.engineSizeFieldSpecified = value;
+                this.RaisePropertyChanged("engineSizeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=20)]
+        public System.Nullable<long> odometer {
+            get {
+                return this.odometerField;
+            }
+            set {
+                this.odometerField = value;
+                this.RaisePropertyChanged("odometer");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool odometerSpecified {
+            get {
+                return this.odometerFieldSpecified;
+            }
+            set {
+                this.odometerFieldSpecified = value;
+                this.RaisePropertyChanged("odometerSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=21)]
+        public ManagedIntegerParameter rpmLimit {
+            get {
+                return this.rpmLimitField;
+            }
+            set {
+                this.rpmLimitField = value;
+                this.RaisePropertyChanged("rpmLimit");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=22)]
+        public ManagedIntegerParameter fuelTankSize {
+            get {
+                return this.fuelTankSizeField;
+            }
+            set {
+                this.fuelTankSizeField = value;
+                this.RaisePropertyChanged("fuelTankSize");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=23)]
+        public string epBTAddress {
+            get {
+                return this.epBTAddressField;
+            }
+            set {
+                this.epBTAddressField = value;
+                this.RaisePropertyChanged("epBTAddress");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=24)]
+        public string rllBTAddress {
+            get {
+                return this.rllBTAddressField;
+            }
+            set {
+                this.rllBTAddressField = value;
+                this.RaisePropertyChanged("rllBTAddress");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=25)]
+        public System.Nullable<EpType> epType {
+            get {
+                return this.epTypeField;
+            }
+            set {
+                this.epTypeField = value;
+                this.RaisePropertyChanged("epType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool epTypeSpecified {
+            get {
+                return this.epTypeFieldSpecified;
+            }
+            set {
+                this.epTypeFieldSpecified = value;
+                this.RaisePropertyChanged("epTypeSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public enum VehicleType {
+        
+        /// <remarks/>
+        HEAVYWEIGHT_TRUCK_TRAILER,
+        
+        /// <remarks/>
+        TANKER_TRUCK,
+        
+        /// <remarks/>
+        HEAVY_TRUCK,
+        
+        /// <remarks/>
+        MEDIUM_TRUCK,
+        
+        /// <remarks/>
+        DUMP_TRUCK,
+        
+        /// <remarks/>
+        PALLET_TRUCK,
+        
+        /// <remarks/>
+        CONCRETE_LORRY,
+        
+        /// <remarks/>
+        DEPOSIT_TIPPER,
+        
+        /// <remarks/>
+        GARBAGE_TRUCK,
+        
+        /// <remarks/>
+        LOADER,
+        
+        /// <remarks/>
+        EXCAVATOR,
+        
+        /// <remarks/>
+        WRECKER,
+        
+        /// <remarks/>
+        TRUCK_WRECKER,
+        
+        /// <remarks/>
+        MULTICAR,
+        
+        /// <remarks/>
+        STREET_SWEEPER,
+        
+        /// <remarks/>
+        TRACTOR,
+        
+        /// <remarks/>
+        HEAVYWEIGHT_TRUCK,
+        
+        /// <remarks/>
+        TRUCK_WITH_TRAILER,
+        
+        /// <remarks/>
+        TRAILER,
+        
+        /// <remarks/>
+        TRUCK_TRAILER,
+        
+        /// <remarks/>
+        CRANE,
+        
+        /// <remarks/>
+        BUS,
+        
+        /// <remarks/>
+        FIRETRUCK,
+        
+        /// <remarks/>
+        AMBULANCE,
+        
+        /// <remarks/>
+        POLICE,
+        
+        /// <remarks/>
+        CADDY,
+        
+        /// <remarks/>
+        VAN,
+        
+        /// <remarks/>
+        MULTIVAN,
+        
+        /// <remarks/>
+        CAR_STATION_WAGON,
+        
+        /// <remarks/>
+        PICKUP,
+        
+        /// <remarks/>
+        SUV,
+        
+        /// <remarks/>
+        TAXI,
+        
+        /// <remarks/>
+        CAR,
+        
+        /// <remarks/>
+        APE,
+        
+        /// <remarks/>
+        VESPA,
+        
+        /// <remarks/>
+        BIKE,
+        
+        /// <remarks/>
+        CONTAINERSHIP,
+        
+        /// <remarks/>
+        LINK,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public enum VehicleColour {
+        
+        /// <remarks/>
+        WHITE,
+        
+        /// <remarks/>
+        GREY,
+        
+        /// <remarks/>
+        BLACK,
+        
+        /// <remarks/>
+        IVORY,
+        
+        /// <remarks/>
+        RED,
+        
+        /// <remarks/>
+        ORANGE,
+        
+        /// <remarks/>
+        YELLOW,
+        
+        /// <remarks/>
+        GREEN,
+        
+        /// <remarks/>
+        BLUE,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public partial class ManagedFloatParameter : ParameterBase {
+        
+        private float valueField;
+        
+        private bool valueFieldSpecified;
+        
+        private bool setNullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public float value {
+            get {
+                return this.valueField;
+            }
+            set {
+                this.valueField = value;
+                this.RaisePropertyChanged("value");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool valueSpecified {
+            get {
+                return this.valueFieldSpecified;
+            }
+            set {
+                this.valueFieldSpecified = value;
+                this.RaisePropertyChanged("valueSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public bool setNull {
+            get {
+                return this.setNullField;
+            }
+            set {
+                this.setNullField = value;
+                this.RaisePropertyChanged("setNull");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public enum FuelType {
+        
+        /// <remarks/>
+        UNKNOWN,
+        
+        /// <remarks/>
+        DIESEL,
+        
+        /// <remarks/>
+        GASOLINE,
+        
+        /// <remarks/>
+        LPG,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public partial class ManagedIntegerParameter : ParameterBase {
+        
+        private int valueField;
+        
+        private bool valueFieldSpecified;
+        
+        private bool setNullField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int value {
+            get {
+                return this.valueField;
+            }
+            set {
+                this.valueField = value;
+                this.RaisePropertyChanged("value");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool valueSpecified {
+            get {
+                return this.valueFieldSpecified;
+            }
+            set {
+                this.valueFieldSpecified = value;
+                this.RaisePropertyChanged("valueSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public bool setNull {
+            get {
+                return this.setNullField;
+            }
+            set {
+                this.setNullField = value;
+                this.RaisePropertyChanged("setNull");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public enum EpType {
+        
+        /// <remarks/>
+        ECO_PLUS,
+        
+        /// <remarks/>
+        LINK_105,
     }
     
     /// <remarks/>
@@ -3987,193 +3169,6 @@ namespace TomTomCall.ServiceReference1 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public enum VehicleType {
-        
-        /// <remarks/>
-        HEAVYWEIGHT_TRUCK_TRAILER,
-        
-        /// <remarks/>
-        TANKER_TRUCK,
-        
-        /// <remarks/>
-        HEAVY_TRUCK,
-        
-        /// <remarks/>
-        MEDIUM_TRUCK,
-        
-        /// <remarks/>
-        DUMP_TRUCK,
-        
-        /// <remarks/>
-        PALLET_TRUCK,
-        
-        /// <remarks/>
-        CONCRETE_LORRY,
-        
-        /// <remarks/>
-        DEPOSIT_TIPPER,
-        
-        /// <remarks/>
-        GARBAGE_TRUCK,
-        
-        /// <remarks/>
-        LOADER,
-        
-        /// <remarks/>
-        EXCAVATOR,
-        
-        /// <remarks/>
-        WRECKER,
-        
-        /// <remarks/>
-        TRUCK_WRECKER,
-        
-        /// <remarks/>
-        MULTICAR,
-        
-        /// <remarks/>
-        STREET_SWEEPER,
-        
-        /// <remarks/>
-        TRACTOR,
-        
-        /// <remarks/>
-        HEAVYWEIGHT_TRUCK,
-        
-        /// <remarks/>
-        TRUCK_WITH_TRAILER,
-        
-        /// <remarks/>
-        TRAILER,
-        
-        /// <remarks/>
-        TRUCK_TRAILER,
-        
-        /// <remarks/>
-        CRANE,
-        
-        /// <remarks/>
-        BUS,
-        
-        /// <remarks/>
-        FIRETRUCK,
-        
-        /// <remarks/>
-        AMBULANCE,
-        
-        /// <remarks/>
-        POLICE,
-        
-        /// <remarks/>
-        CADDY,
-        
-        /// <remarks/>
-        VAN,
-        
-        /// <remarks/>
-        MULTIVAN,
-        
-        /// <remarks/>
-        CAR_STATION_WAGON,
-        
-        /// <remarks/>
-        PICKUP,
-        
-        /// <remarks/>
-        SUV,
-        
-        /// <remarks/>
-        TAXI,
-        
-        /// <remarks/>
-        CAR,
-        
-        /// <remarks/>
-        APE,
-        
-        /// <remarks/>
-        VESPA,
-        
-        /// <remarks/>
-        BIKE,
-        
-        /// <remarks/>
-        CONTAINERSHIP,
-        
-        /// <remarks/>
-        LINK,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public enum VehicleColour {
-        
-        /// <remarks/>
-        WHITE,
-        
-        /// <remarks/>
-        GREY,
-        
-        /// <remarks/>
-        BLACK,
-        
-        /// <remarks/>
-        IVORY,
-        
-        /// <remarks/>
-        RED,
-        
-        /// <remarks/>
-        ORANGE,
-        
-        /// <remarks/>
-        YELLOW,
-        
-        /// <remarks/>
-        GREEN,
-        
-        /// <remarks/>
-        BLUE,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public enum FuelType {
-        
-        /// <remarks/>
-        UNKNOWN,
-        
-        /// <remarks/>
-        DIESEL,
-        
-        /// <remarks/>
-        GASOLINE,
-        
-        /// <remarks/>
-        LPG,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public enum EpType {
-        
-        /// <remarks/>
-        ECO_PLUS,
-        
-        /// <remarks/>
-        LINK_105,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
@@ -4625,691 +3620,6 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.formattedNameField = value;
                 this.RaisePropertyChanged("formattedName");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public partial class DetailedVehicleParameter : ObjectIdentity {
-        
-        private System.Nullable<VehicleType> vehicleTypeField;
-        
-        private bool vehicleTypeFieldSpecified;
-        
-        private System.Nullable<VehicleColour> vehicleColorField;
-        
-        private bool vehicleColorFieldSpecified;
-        
-        private string identNumberField;
-        
-        private string registrationDateField;
-        
-        private string denotationField;
-        
-        private string licensePlateNumberField;
-        
-        private ManagedFloatParameter speedLimitField;
-        
-        private ManagedFloatParameter fuelConsumptionField;
-        
-        private System.Nullable<FuelType> fuelTypeField;
-        
-        private bool fuelTypeFieldSpecified;
-        
-        private System.Nullable<float> netWeightField;
-        
-        private bool netWeightFieldSpecified;
-        
-        private System.Nullable<float> maxWeightField;
-        
-        private bool maxWeightFieldSpecified;
-        
-        private System.Nullable<float> netLoadField;
-        
-        private bool netLoadFieldSpecified;
-        
-        private System.Nullable<int> numAxlesField;
-        
-        private bool numAxlesFieldSpecified;
-        
-        private System.Nullable<int> lengthField;
-        
-        private bool lengthFieldSpecified;
-        
-        private System.Nullable<int> widthField;
-        
-        private bool widthFieldSpecified;
-        
-        private System.Nullable<int> heightField;
-        
-        private bool heightFieldSpecified;
-        
-        private string descriptionField;
-        
-        private System.Nullable<float> powerField;
-        
-        private bool powerFieldSpecified;
-        
-        private System.Nullable<bool> resetFuelAverageField;
-        
-        private bool resetFuelAverageFieldSpecified;
-        
-        private System.Nullable<int> engineSizeField;
-        
-        private bool engineSizeFieldSpecified;
-        
-        private System.Nullable<long> odometerField;
-        
-        private bool odometerFieldSpecified;
-        
-        private ManagedIntegerParameter rpmLimitField;
-        
-        private ManagedIntegerParameter fuelTankSizeField;
-        
-        private string epBTAddressField;
-        
-        private string rllBTAddressField;
-        
-        private System.Nullable<EpType> epTypeField;
-        
-        private bool epTypeFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public System.Nullable<VehicleType> vehicleType {
-            get {
-                return this.vehicleTypeField;
-            }
-            set {
-                this.vehicleTypeField = value;
-                this.RaisePropertyChanged("vehicleType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool vehicleTypeSpecified {
-            get {
-                return this.vehicleTypeFieldSpecified;
-            }
-            set {
-                this.vehicleTypeFieldSpecified = value;
-                this.RaisePropertyChanged("vehicleTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public System.Nullable<VehicleColour> vehicleColor {
-            get {
-                return this.vehicleColorField;
-            }
-            set {
-                this.vehicleColorField = value;
-                this.RaisePropertyChanged("vehicleColor");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool vehicleColorSpecified {
-            get {
-                return this.vehicleColorFieldSpecified;
-            }
-            set {
-                this.vehicleColorFieldSpecified = value;
-                this.RaisePropertyChanged("vehicleColorSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string identNumber {
-            get {
-                return this.identNumberField;
-            }
-            set {
-                this.identNumberField = value;
-                this.RaisePropertyChanged("identNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public string registrationDate {
-            get {
-                return this.registrationDateField;
-            }
-            set {
-                this.registrationDateField = value;
-                this.RaisePropertyChanged("registrationDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public string denotation {
-            get {
-                return this.denotationField;
-            }
-            set {
-                this.denotationField = value;
-                this.RaisePropertyChanged("denotation");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public string licensePlateNumber {
-            get {
-                return this.licensePlateNumberField;
-            }
-            set {
-                this.licensePlateNumberField = value;
-                this.RaisePropertyChanged("licensePlateNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public ManagedFloatParameter speedLimit {
-            get {
-                return this.speedLimitField;
-            }
-            set {
-                this.speedLimitField = value;
-                this.RaisePropertyChanged("speedLimit");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
-        public ManagedFloatParameter fuelConsumption {
-            get {
-                return this.fuelConsumptionField;
-            }
-            set {
-                this.fuelConsumptionField = value;
-                this.RaisePropertyChanged("fuelConsumption");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
-        public System.Nullable<FuelType> fuelType {
-            get {
-                return this.fuelTypeField;
-            }
-            set {
-                this.fuelTypeField = value;
-                this.RaisePropertyChanged("fuelType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool fuelTypeSpecified {
-            get {
-                return this.fuelTypeFieldSpecified;
-            }
-            set {
-                this.fuelTypeFieldSpecified = value;
-                this.RaisePropertyChanged("fuelTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
-        public System.Nullable<float> netWeight {
-            get {
-                return this.netWeightField;
-            }
-            set {
-                this.netWeightField = value;
-                this.RaisePropertyChanged("netWeight");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool netWeightSpecified {
-            get {
-                return this.netWeightFieldSpecified;
-            }
-            set {
-                this.netWeightFieldSpecified = value;
-                this.RaisePropertyChanged("netWeightSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
-        public System.Nullable<float> maxWeight {
-            get {
-                return this.maxWeightField;
-            }
-            set {
-                this.maxWeightField = value;
-                this.RaisePropertyChanged("maxWeight");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool maxWeightSpecified {
-            get {
-                return this.maxWeightFieldSpecified;
-            }
-            set {
-                this.maxWeightFieldSpecified = value;
-                this.RaisePropertyChanged("maxWeightSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=11)]
-        public System.Nullable<float> netLoad {
-            get {
-                return this.netLoadField;
-            }
-            set {
-                this.netLoadField = value;
-                this.RaisePropertyChanged("netLoad");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool netLoadSpecified {
-            get {
-                return this.netLoadFieldSpecified;
-            }
-            set {
-                this.netLoadFieldSpecified = value;
-                this.RaisePropertyChanged("netLoadSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=12)]
-        public System.Nullable<int> numAxles {
-            get {
-                return this.numAxlesField;
-            }
-            set {
-                this.numAxlesField = value;
-                this.RaisePropertyChanged("numAxles");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool numAxlesSpecified {
-            get {
-                return this.numAxlesFieldSpecified;
-            }
-            set {
-                this.numAxlesFieldSpecified = value;
-                this.RaisePropertyChanged("numAxlesSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=13)]
-        public System.Nullable<int> length {
-            get {
-                return this.lengthField;
-            }
-            set {
-                this.lengthField = value;
-                this.RaisePropertyChanged("length");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool lengthSpecified {
-            get {
-                return this.lengthFieldSpecified;
-            }
-            set {
-                this.lengthFieldSpecified = value;
-                this.RaisePropertyChanged("lengthSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=14)]
-        public System.Nullable<int> width {
-            get {
-                return this.widthField;
-            }
-            set {
-                this.widthField = value;
-                this.RaisePropertyChanged("width");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool widthSpecified {
-            get {
-                return this.widthFieldSpecified;
-            }
-            set {
-                this.widthFieldSpecified = value;
-                this.RaisePropertyChanged("widthSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=15)]
-        public System.Nullable<int> height {
-            get {
-                return this.heightField;
-            }
-            set {
-                this.heightField = value;
-                this.RaisePropertyChanged("height");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool heightSpecified {
-            get {
-                return this.heightFieldSpecified;
-            }
-            set {
-                this.heightFieldSpecified = value;
-                this.RaisePropertyChanged("heightSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=16)]
-        public string description {
-            get {
-                return this.descriptionField;
-            }
-            set {
-                this.descriptionField = value;
-                this.RaisePropertyChanged("description");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=17)]
-        public System.Nullable<float> power {
-            get {
-                return this.powerField;
-            }
-            set {
-                this.powerField = value;
-                this.RaisePropertyChanged("power");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool powerSpecified {
-            get {
-                return this.powerFieldSpecified;
-            }
-            set {
-                this.powerFieldSpecified = value;
-                this.RaisePropertyChanged("powerSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=18)]
-        public System.Nullable<bool> resetFuelAverage {
-            get {
-                return this.resetFuelAverageField;
-            }
-            set {
-                this.resetFuelAverageField = value;
-                this.RaisePropertyChanged("resetFuelAverage");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool resetFuelAverageSpecified {
-            get {
-                return this.resetFuelAverageFieldSpecified;
-            }
-            set {
-                this.resetFuelAverageFieldSpecified = value;
-                this.RaisePropertyChanged("resetFuelAverageSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=19)]
-        public System.Nullable<int> engineSize {
-            get {
-                return this.engineSizeField;
-            }
-            set {
-                this.engineSizeField = value;
-                this.RaisePropertyChanged("engineSize");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool engineSizeSpecified {
-            get {
-                return this.engineSizeFieldSpecified;
-            }
-            set {
-                this.engineSizeFieldSpecified = value;
-                this.RaisePropertyChanged("engineSizeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=20)]
-        public System.Nullable<long> odometer {
-            get {
-                return this.odometerField;
-            }
-            set {
-                this.odometerField = value;
-                this.RaisePropertyChanged("odometer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool odometerSpecified {
-            get {
-                return this.odometerFieldSpecified;
-            }
-            set {
-                this.odometerFieldSpecified = value;
-                this.RaisePropertyChanged("odometerSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=21)]
-        public ManagedIntegerParameter rpmLimit {
-            get {
-                return this.rpmLimitField;
-            }
-            set {
-                this.rpmLimitField = value;
-                this.RaisePropertyChanged("rpmLimit");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=22)]
-        public ManagedIntegerParameter fuelTankSize {
-            get {
-                return this.fuelTankSizeField;
-            }
-            set {
-                this.fuelTankSizeField = value;
-                this.RaisePropertyChanged("fuelTankSize");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=23)]
-        public string epBTAddress {
-            get {
-                return this.epBTAddressField;
-            }
-            set {
-                this.epBTAddressField = value;
-                this.RaisePropertyChanged("epBTAddress");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=24)]
-        public string rllBTAddress {
-            get {
-                return this.rllBTAddressField;
-            }
-            set {
-                this.rllBTAddressField = value;
-                this.RaisePropertyChanged("rllBTAddress");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=25)]
-        public System.Nullable<EpType> epType {
-            get {
-                return this.epTypeField;
-            }
-            set {
-                this.epTypeField = value;
-                this.RaisePropertyChanged("epType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool epTypeSpecified {
-            get {
-                return this.epTypeFieldSpecified;
-            }
-            set {
-                this.epTypeFieldSpecified = value;
-                this.RaisePropertyChanged("epTypeSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public partial class ManagedFloatParameter : ParameterBase {
-        
-        private float valueField;
-        
-        private bool valueFieldSpecified;
-        
-        private bool setNullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public float value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("value");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool valueSpecified {
-            get {
-                return this.valueFieldSpecified;
-            }
-            set {
-                this.valueFieldSpecified = value;
-                this.RaisePropertyChanged("valueSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public bool setNull {
-            get {
-                return this.setNullField;
-            }
-            set {
-                this.setNullField = value;
-                this.RaisePropertyChanged("setNull");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public partial class ManagedIntegerParameter : ParameterBase {
-        
-        private int valueField;
-        
-        private bool valueFieldSpecified;
-        
-        private bool setNullField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int value {
-            get {
-                return this.valueField;
-            }
-            set {
-                this.valueField = value;
-                this.RaisePropertyChanged("value");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool valueSpecified {
-            get {
-                return this.valueFieldSpecified;
-            }
-            set {
-                this.valueFieldSpecified = value;
-                this.RaisePropertyChanged("valueSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public bool setNull {
-            get {
-                return this.setNullField;
-            }
-            set {
-                this.setNullField = value;
-                this.RaisePropertyChanged("setNull");
             }
         }
     }
@@ -6047,6 +4357,123 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.fuelLevelFieldSpecified = value;
                 this.RaisePropertyChanged("fuelLevelSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class GeoPosition : BasicGeoPosition {
+        
+        private string latitudeHumanReadableField;
+        
+        private string longitudeHumanReadableField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string latitudeHumanReadable {
+            get {
+                return this.latitudeHumanReadableField;
+            }
+            set {
+                this.latitudeHumanReadableField = value;
+                this.RaisePropertyChanged("latitudeHumanReadable");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string longitudeHumanReadable {
+            get {
+                return this.longitudeHumanReadableField;
+            }
+            set {
+                this.longitudeHumanReadableField = value;
+                this.RaisePropertyChanged("longitudeHumanReadable");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GeoPosition))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class BasicGeoPosition : TransferObjectBase {
+        
+        private System.Nullable<int> latitudeField;
+        
+        private bool latitudeFieldSpecified;
+        
+        private System.Nullable<int> longitudeField;
+        
+        private bool longitudeFieldSpecified;
+        
+        private string mapcodeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public System.Nullable<int> latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool latitudeSpecified {
+            get {
+                return this.latitudeFieldSpecified;
+            }
+            set {
+                this.latitudeFieldSpecified = value;
+                this.RaisePropertyChanged("latitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public System.Nullable<int> longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("longitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool longitudeSpecified {
+            get {
+                return this.longitudeFieldSpecified;
+            }
+            set {
+                this.longitudeFieldSpecified = value;
+                this.RaisePropertyChanged("longitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string mapcode {
+            get {
+                return this.mapcodeField;
+            }
+            set {
+                this.mapcodeField = value;
+                this.RaisePropertyChanged("mapcode");
             }
         }
     }
@@ -6992,1468 +5419,6 @@ namespace TomTomCall.ServiceReference1 {
         
         /// <remarks/>
         VEHICLE,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public enum ArrivalTolerance {
-        
-        /// <remarks/>
-        ZERO,
-        
-        /// <remarks/>
-        QUARTERHOUR,
-        
-        /// <remarks/>
-        HALFHOUR,
-        
-        /// <remarks/>
-        ONEHOUR,
-        
-        /// <remarks/>
-        TWOHOURS,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public enum DelayWarning {
-        
-        /// <remarks/>
-        delayWithinTolerance,
-        
-        /// <remarks/>
-        delayOutsideTolerance,
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrder))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class BasicDestinationOrder : TransferObjectBase {
-        
-        private string textField;
-        
-        private System.Nullable<OrderType> typeField;
-        
-        private System.Nullable<System.DateTime> dateAndTimeField;
-        
-        private bool dateAndTimeFieldSpecified;
-        
-        private System.Nullable<ArrivalTolerance> arrivalToleranceField;
-        
-        private bool arrivalToleranceFieldSpecified;
-        
-        private string orderNoField;
-        
-        public BasicDestinationOrder() {
-            this.typeField = OrderType.SERVICE_ORDER;
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("text");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        [System.ComponentModel.DefaultValueAttribute(OrderType.SERVICE_ORDER)]
-        public System.Nullable<OrderType> type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<System.DateTime> dateAndTime {
-            get {
-                return this.dateAndTimeField;
-            }
-            set {
-                this.dateAndTimeField = value;
-                this.RaisePropertyChanged("dateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool dateAndTimeSpecified {
-            get {
-                return this.dateAndTimeFieldSpecified;
-            }
-            set {
-                this.dateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("dateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<ArrivalTolerance> arrivalTolerance {
-            get {
-                return this.arrivalToleranceField;
-            }
-            set {
-                this.arrivalToleranceField = value;
-                this.RaisePropertyChanged("arrivalTolerance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool arrivalToleranceSpecified {
-            get {
-                return this.arrivalToleranceFieldSpecified;
-            }
-            set {
-                this.arrivalToleranceFieldSpecified = value;
-                this.RaisePropertyChanged("arrivalToleranceSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class DestinationOrder : BasicDestinationOrder {
-        
-        private string contactNameField;
-        
-        private string contactTelField;
-        
-        private string addrNrField;
-        
-        private string postcodeField;
-        
-        private string cityField;
-        
-        private string streetField;
-        
-        private string countryField;
-        
-        private System.Nullable<int> longitudeField;
-        
-        private bool longitudeFieldSpecified;
-        
-        private System.Nullable<int> latitudeField;
-        
-        private bool latitudeFieldSpecified;
-        
-        private int notificationMinutesField;
-        
-        private bool notificationMinutesFieldSpecified;
-        
-        private bool notificationEnabledField;
-        
-        private bool notificationEnabledFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string contactName {
-            get {
-                return this.contactNameField;
-            }
-            set {
-                this.contactNameField = value;
-                this.RaisePropertyChanged("contactName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string contactTel {
-            get {
-                return this.contactTelField;
-            }
-            set {
-                this.contactTelField = value;
-                this.RaisePropertyChanged("contactTel");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string addrNr {
-            get {
-                return this.addrNrField;
-            }
-            set {
-                this.addrNrField = value;
-                this.RaisePropertyChanged("addrNr");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public string postcode {
-            get {
-                return this.postcodeField;
-            }
-            set {
-                this.postcodeField = value;
-                this.RaisePropertyChanged("postcode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public string city {
-            get {
-                return this.cityField;
-            }
-            set {
-                this.cityField = value;
-                this.RaisePropertyChanged("city");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public string street {
-            get {
-                return this.streetField;
-            }
-            set {
-                this.streetField = value;
-                this.RaisePropertyChanged("street");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public string country {
-            get {
-                return this.countryField;
-            }
-            set {
-                this.countryField = value;
-                this.RaisePropertyChanged("country");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
-        public System.Nullable<int> longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("longitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool longitudeSpecified {
-            get {
-                return this.longitudeFieldSpecified;
-            }
-            set {
-                this.longitudeFieldSpecified = value;
-                this.RaisePropertyChanged("longitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
-        public System.Nullable<int> latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool latitudeSpecified {
-            get {
-                return this.latitudeFieldSpecified;
-            }
-            set {
-                this.latitudeFieldSpecified = value;
-                this.RaisePropertyChanged("latitudeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=9)]
-        public int notificationMinutes {
-            get {
-                return this.notificationMinutesField;
-            }
-            set {
-                this.notificationMinutesField = value;
-                this.RaisePropertyChanged("notificationMinutes");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool notificationMinutesSpecified {
-            get {
-                return this.notificationMinutesFieldSpecified;
-            }
-            set {
-                this.notificationMinutesFieldSpecified = value;
-                this.RaisePropertyChanged("notificationMinutesSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=10)]
-        public bool notificationEnabled {
-            get {
-                return this.notificationEnabledField;
-            }
-            set {
-                this.notificationEnabledField = value;
-                this.RaisePropertyChanged("notificationEnabled");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool notificationEnabledSpecified {
-            get {
-                return this.notificationEnabledFieldSpecified;
-            }
-            set {
-                this.notificationEnabledFieldSpecified = value;
-                this.RaisePropertyChanged("notificationEnabledSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public partial class Travel : TransferObjectBase {
-        
-        private int speedField;
-        
-        private bool speedFieldSpecified;
-        
-        private int courseField;
-        
-        private bool courseFieldSpecified;
-        
-        private IntercardinalDirections directionField;
-        
-        private bool directionFieldSpecified;
-        
-        private int odometerField;
-        
-        private bool odometerFieldSpecified;
-        
-        private System.DateTime estimatedArrivalTimeField;
-        
-        private bool estimatedArrivalTimeFieldSpecified;
-        
-        private int distanceField;
-        
-        private bool distanceFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int speed {
-            get {
-                return this.speedField;
-            }
-            set {
-                this.speedField = value;
-                this.RaisePropertyChanged("speed");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool speedSpecified {
-            get {
-                return this.speedFieldSpecified;
-            }
-            set {
-                this.speedFieldSpecified = value;
-                this.RaisePropertyChanged("speedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public int course {
-            get {
-                return this.courseField;
-            }
-            set {
-                this.courseField = value;
-                this.RaisePropertyChanged("course");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool courseSpecified {
-            get {
-                return this.courseFieldSpecified;
-            }
-            set {
-                this.courseFieldSpecified = value;
-                this.RaisePropertyChanged("courseSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public IntercardinalDirections direction {
-            get {
-                return this.directionField;
-            }
-            set {
-                this.directionField = value;
-                this.RaisePropertyChanged("direction");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool directionSpecified {
-            get {
-                return this.directionFieldSpecified;
-            }
-            set {
-                this.directionFieldSpecified = value;
-                this.RaisePropertyChanged("directionSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public int odometer {
-            get {
-                return this.odometerField;
-            }
-            set {
-                this.odometerField = value;
-                this.RaisePropertyChanged("odometer");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool odometerSpecified {
-            get {
-                return this.odometerFieldSpecified;
-            }
-            set {
-                this.odometerFieldSpecified = value;
-                this.RaisePropertyChanged("odometerSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public System.DateTime estimatedArrivalTime {
-            get {
-                return this.estimatedArrivalTimeField;
-            }
-            set {
-                this.estimatedArrivalTimeField = value;
-                this.RaisePropertyChanged("estimatedArrivalTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool estimatedArrivalTimeSpecified {
-            get {
-                return this.estimatedArrivalTimeFieldSpecified;
-            }
-            set {
-                this.estimatedArrivalTimeFieldSpecified = value;
-                this.RaisePropertyChanged("estimatedArrivalTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
-        public int distance {
-            get {
-                return this.distanceField;
-            }
-            set {
-                this.distanceField = value;
-                this.RaisePropertyChanged("distance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool distanceSpecified {
-            get {
-                return this.distanceFieldSpecified;
-            }
-            set {
-                this.distanceFieldSpecified = value;
-                this.RaisePropertyChanged("distanceSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class GPSFix : TransferObjectBase {
-        
-        private string qualityField;
-        
-        private string satelliteField;
-        
-        private GPSSignalStatus signalStatusField;
-        
-        private bool signalStatusFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string quality {
-            get {
-                return this.qualityField;
-            }
-            set {
-                this.qualityField = value;
-                this.RaisePropertyChanged("quality");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string satellite {
-            get {
-                return this.satelliteField;
-            }
-            set {
-                this.satelliteField = value;
-                this.RaisePropertyChanged("satellite");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public GPSSignalStatus signalStatus {
-            get {
-                return this.signalStatusField;
-            }
-            set {
-                this.signalStatusField = value;
-                this.RaisePropertyChanged("signalStatus");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool signalStatusSpecified {
-            get {
-                return this.signalStatusFieldSpecified;
-            }
-            set {
-                this.signalStatusFieldSpecified = value;
-                this.RaisePropertyChanged("signalStatusSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
-    public enum GPSSignalStatus {
-        
-        /// <remarks/>
-        OK,
-        
-        /// <remarks/>
-        WARN,
-        
-        /// <remarks/>
-        LAST,
-        
-        /// <remarks/>
-        INVALID,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class BasicPosition : TransferObjectBase {
-        
-        private GeoPosition geoPositionField;
-        
-        private System.DateTime dateAndTimeField;
-        
-        private bool dateAndTimeFieldSpecified;
-        
-        private string textualRepresentationField;
-        
-        private string shortTextualRepresentationField;
-        
-        private int typeField;
-        
-        private bool typeFieldSpecified;
-        
-        private string altitudeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public GeoPosition geoPosition {
-            get {
-                return this.geoPositionField;
-            }
-            set {
-                this.geoPositionField = value;
-                this.RaisePropertyChanged("geoPosition");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public System.DateTime dateAndTime {
-            get {
-                return this.dateAndTimeField;
-            }
-            set {
-                this.dateAndTimeField = value;
-                this.RaisePropertyChanged("dateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool dateAndTimeSpecified {
-            get {
-                return this.dateAndTimeFieldSpecified;
-            }
-            set {
-                this.dateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("dateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public string textualRepresentation {
-            get {
-                return this.textualRepresentationField;
-            }
-            set {
-                this.textualRepresentationField = value;
-                this.RaisePropertyChanged("textualRepresentation");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public string shortTextualRepresentation {
-            get {
-                return this.shortTextualRepresentationField;
-            }
-            set {
-                this.shortTextualRepresentationField = value;
-                this.RaisePropertyChanged("shortTextualRepresentation");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int type {
-            get {
-                return this.typeField;
-            }
-            set {
-                this.typeField = value;
-                this.RaisePropertyChanged("type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool typeSpecified {
-            get {
-                return this.typeFieldSpecified;
-            }
-            set {
-                this.typeFieldSpecified = value;
-                this.RaisePropertyChanged("typeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string altitude {
-            get {
-                return this.altitudeField;
-            }
-            set {
-                this.altitudeField = value;
-                this.RaisePropertyChanged("altitude");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
-    public partial class ReportedOrderMessageData : TransferObjectBase {
-        
-        private BasicMessage messageField;
-        
-        private BasicObject objectField;
-        
-        private BasicPosition positionField;
-        
-        private string orderIdField;
-        
-        private OrderStateCode orderStateCodeField;
-        
-        private bool orderStateCodeFieldSpecified;
-        
-        private System.Nullable<int> userStateCodeField;
-        
-        private bool userStateCodeFieldSpecified;
-        
-        private string userTextMessageField;
-        
-        private GPSFix gpsFixField;
-        
-        private Travel travelField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public BasicMessage message {
-            get {
-                return this.messageField;
-            }
-            set {
-                this.messageField = value;
-                this.RaisePropertyChanged("message");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public BasicObject @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public BasicPosition position {
-            get {
-                return this.positionField;
-            }
-            set {
-                this.positionField = value;
-                this.RaisePropertyChanged("position");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public string orderId {
-            get {
-                return this.orderIdField;
-            }
-            set {
-                this.orderIdField = value;
-                this.RaisePropertyChanged("orderId");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
-        public OrderStateCode orderStateCode {
-            get {
-                return this.orderStateCodeField;
-            }
-            set {
-                this.orderStateCodeField = value;
-                this.RaisePropertyChanged("orderStateCode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderStateCodeSpecified {
-            get {
-                return this.orderStateCodeFieldSpecified;
-            }
-            set {
-                this.orderStateCodeFieldSpecified = value;
-                this.RaisePropertyChanged("orderStateCodeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public System.Nullable<int> userStateCode {
-            get {
-                return this.userStateCodeField;
-            }
-            set {
-                this.userStateCodeField = value;
-                this.RaisePropertyChanged("userStateCode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool userStateCodeSpecified {
-            get {
-                return this.userStateCodeFieldSpecified;
-            }
-            set {
-                this.userStateCodeFieldSpecified = value;
-                this.RaisePropertyChanged("userStateCodeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public string userTextMessage {
-            get {
-                return this.userTextMessageField;
-            }
-            set {
-                this.userTextMessageField = value;
-                this.RaisePropertyChanged("userTextMessage");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
-        public GPSFix gpsFix {
-            get {
-                return this.gpsFixField;
-            }
-            set {
-                this.gpsFixField = value;
-                this.RaisePropertyChanged("gpsFix");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=8)]
-        public Travel travel {
-            get {
-                return this.travelField;
-            }
-            set {
-                this.travelField = value;
-                this.RaisePropertyChanged("travel");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
-    public partial class BasicMessage : TransferObjectBase {
-        
-        private System.DateTime dateAndTimeField;
-        
-        private bool dateAndTimeFieldSpecified;
-        
-        private string textField;
-        
-        private MessageClass classField;
-        
-        private bool classFieldSpecified;
-        
-        private MessageTransmissionState transmissionStateField;
-        
-        private bool transmissionStateFieldSpecified;
-        
-        private long messageIdField;
-        
-        private string flagField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public System.DateTime dateAndTime {
-            get {
-                return this.dateAndTimeField;
-            }
-            set {
-                this.dateAndTimeField = value;
-                this.RaisePropertyChanged("dateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool dateAndTimeSpecified {
-            get {
-                return this.dateAndTimeFieldSpecified;
-            }
-            set {
-                this.dateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("dateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string text {
-            get {
-                return this.textField;
-            }
-            set {
-                this.textField = value;
-                this.RaisePropertyChanged("text");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public MessageClass @class {
-            get {
-                return this.classField;
-            }
-            set {
-                this.classField = value;
-                this.RaisePropertyChanged("class");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool classSpecified {
-            get {
-                return this.classFieldSpecified;
-            }
-            set {
-                this.classFieldSpecified = value;
-                this.RaisePropertyChanged("classSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public MessageTransmissionState transmissionState {
-            get {
-                return this.transmissionStateField;
-            }
-            set {
-                this.transmissionStateField = value;
-                this.RaisePropertyChanged("transmissionState");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool transmissionStateSpecified {
-            get {
-                return this.transmissionStateFieldSpecified;
-            }
-            set {
-                this.transmissionStateFieldSpecified = value;
-                this.RaisePropertyChanged("transmissionStateSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public long messageId {
-            get {
-                return this.messageIdField;
-            }
-            set {
-                this.messageIdField = value;
-                this.RaisePropertyChanged("messageId");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string flag {
-            get {
-                return this.flagField;
-            }
-            set {
-                this.flagField = value;
-                this.RaisePropertyChanged("flag");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
-    public enum MessageClass {
-        
-        /// <remarks/>
-        UNKNOWN,
-        
-        /// <remarks/>
-        SYSTEM,
-        
-        /// <remarks/>
-        TEXT,
-        
-        /// <remarks/>
-        POLLING,
-        
-        /// <remarks/>
-        TIMER_EVENT,
-        
-        /// <remarks/>
-        GPS_EVENT,
-        
-        /// <remarks/>
-        INPUT_EVENT,
-        
-        /// <remarks/>
-        SET_OUTPUT,
-        
-        /// <remarks/>
-        DATA,
-        
-        /// <remarks/>
-        CONFIGURATION,
-        
-        /// <remarks/>
-        TRIP,
-        
-        /// <remarks/>
-        ORDER,
-        
-        /// <remarks/>
-        EVENT_FORWARDING,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
-    public enum MessageTransmissionState {
-        
-        /// <remarks/>
-        WAITING_FOR_SEND,
-        
-        /// <remarks/>
-        QUEUED,
-        
-        /// <remarks/>
-        WAITING_FOR_SEND_EXPECTING_ANSWER,
-        
-        /// <remarks/>
-        QUEUED_EXPECTING_ANSWER,
-        
-        /// <remarks/>
-        SENT,
-        
-        /// <remarks/>
-        SENT_EXPECTING_ANSWER,
-        
-        /// <remarks/>
-        DELIVERED,
-        
-        /// <remarks/>
-        DELIVERED_EXPECTING_ANSWER,
-        
-        /// <remarks/>
-        CANCELLED,
-        
-        /// <remarks/>
-        ERROR,
-        
-        /// <remarks/>
-        RECEIVED,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class DriverIdentityAndName : TransferObjectBase {
-        
-        private string driverNoField;
-        
-        private string driverNameField;
-        
-        private string driverUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string driverNo {
-            get {
-                return this.driverNoField;
-            }
-            set {
-                this.driverNoField = value;
-                this.RaisePropertyChanged("driverNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string driverName {
-            get {
-                return this.driverNameField;
-            }
-            set {
-                this.driverNameField = value;
-                this.RaisePropertyChanged("driverName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string driverUid {
-            get {
-                return this.driverUidField;
-            }
-            set {
-                this.driverUidField = value;
-                this.RaisePropertyChanged("driverUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class BasicDriver : TransferObjectBase {
-        
-        private string driverNameField;
-        
-        private string driverNoField;
-        
-        private string driverUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string driverName {
-            get {
-                return this.driverNameField;
-            }
-            set {
-                this.driverNameField = value;
-                this.RaisePropertyChanged("driverName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string driverNo {
-            get {
-                return this.driverNoField;
-            }
-            set {
-                this.driverNoField = value;
-                this.RaisePropertyChanged("driverNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string driverUid {
-            get {
-                return this.driverUidField;
-            }
-            set {
-                this.driverUidField = value;
-                this.RaisePropertyChanged("driverUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class DriverGroupDriverRelationship : TransferObjectBase {
-        
-        private string driverNoField;
-        
-        private string groupNameField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string driverNo {
-            get {
-                return this.driverNoField;
-            }
-            set {
-                this.driverNoField = value;
-                this.RaisePropertyChanged("driverNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string groupName {
-            get {
-                return this.groupNameField;
-            }
-            set {
-                this.groupNameField = value;
-                this.RaisePropertyChanged("groupName");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class DriverGroup : TransferObjectBase {
-        
-        private string driverGroupNameField;
-        
-        private string driverGroupUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string driverGroupName {
-            get {
-                return this.driverGroupNameField;
-            }
-            set {
-                this.driverGroupNameField = value;
-                this.RaisePropertyChanged("driverGroupName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string driverGroupUid {
-            get {
-                return this.driverGroupUidField;
-            }
-            set {
-                this.driverGroupUidField = value;
-                this.RaisePropertyChanged("driverGroupUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class PersonName : TransferObjectBase {
-        
-        private string name1Field;
-        
-        private string name2Field;
-        
-        private string name3Field;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string name1 {
-            get {
-                return this.name1Field;
-            }
-            set {
-                this.name1Field = value;
-                this.RaisePropertyChanged("name1");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string name2 {
-            get {
-                return this.name2Field;
-            }
-            set {
-                this.name2Field = value;
-                this.RaisePropertyChanged("name2");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public string name3 {
-            get {
-                return this.name3Field;
-            }
-            set {
-                this.name3Field = value;
-                this.RaisePropertyChanged("name3");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class ObjectGroupObjectRelation : TransferObjectBase {
-        
-        private ObjectGroupIdentity objectGroupField;
-        
-        private BasicObject objectField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public ObjectGroupIdentity objectGroup {
-            get {
-                return this.objectGroupField;
-            }
-            set {
-                this.objectGroupField = value;
-                this.RaisePropertyChanged("objectGroup");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public BasicObject @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/objects")]
-    public partial class ObjectGroupIdentity : TransferObjectBase {
-        
-        private string nameField;
-        
-        private int objectCountField;
-        
-        private bool objectCountFieldSpecified;
-        
-        private string objectGroupUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string name {
-            get {
-                return this.nameField;
-            }
-            set {
-                this.nameField = value;
-                this.RaisePropertyChanged("name");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int objectCount {
-            get {
-                return this.objectCountField;
-            }
-            set {
-                this.objectCountField = value;
-                this.RaisePropertyChanged("objectCount");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool objectCountSpecified {
-            get {
-                return this.objectCountFieldSpecified;
-            }
-            set {
-                this.objectCountFieldSpecified = value;
-                this.RaisePropertyChanged("objectCountSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectGroupUid {
-            get {
-                return this.objectGroupUidField;
-            }
-            set {
-                this.objectGroupUidField = value;
-                this.RaisePropertyChanged("objectGroupUid");
-            }
-        }
     }
     
     /// <remarks/>
@@ -12414,6 +9379,52 @@ namespace TomTomCall.ServiceReference1 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
+    public enum MessageClass {
+        
+        /// <remarks/>
+        UNKNOWN,
+        
+        /// <remarks/>
+        SYSTEM,
+        
+        /// <remarks/>
+        TEXT,
+        
+        /// <remarks/>
+        POLLING,
+        
+        /// <remarks/>
+        TIMER_EVENT,
+        
+        /// <remarks/>
+        GPS_EVENT,
+        
+        /// <remarks/>
+        INPUT_EVENT,
+        
+        /// <remarks/>
+        SET_OUTPUT,
+        
+        /// <remarks/>
+        DATA,
+        
+        /// <remarks/>
+        CONFIGURATION,
+        
+        /// <remarks/>
+        TRIP,
+        
+        /// <remarks/>
+        ORDER,
+        
+        /// <remarks/>
+        EVENT_FORWARDING,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
@@ -12449,690 +9460,151 @@ namespace TomTomCall.ServiceReference1 {
     }
     
     /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(StartAndEndPosWithCoordinates))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class ShowMessagesParameter : ParameterBase {
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class StartAndEndPosition : TransferObjectBase {
         
-        private ObjectIdentityParameter objectField;
+        private int startOdometerField;
         
-        private DateRange dateRangeField;
+        private bool startOdometerFieldSpecified;
         
-        private System.Nullable<MessageCategory> messageCategoryField;
+        private string startPosTextField;
         
-        private bool messageCategoryFieldSpecified;
+        private System.DateTime startDateAndTimeField;
         
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public ObjectIdentityParameter @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
-            }
-        }
+        private bool startDateAndTimeFieldSpecified;
         
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public DateRange dateRange {
-            get {
-                return this.dateRangeField;
-            }
-            set {
-                this.dateRangeField = value;
-                this.RaisePropertyChanged("dateRange");
-            }
-        }
+        private int endOdometerField;
         
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<MessageCategory> messageCategory {
-            get {
-                return this.messageCategoryField;
-            }
-            set {
-                this.messageCategoryField = value;
-                this.RaisePropertyChanged("messageCategory");
-            }
-        }
+        private bool endOdometerFieldSpecified;
         
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool messageCategorySpecified {
-            get {
-                return this.messageCategoryFieldSpecified;
-            }
-            set {
-                this.messageCategoryFieldSpecified = value;
-                this.RaisePropertyChanged("messageCategorySpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
-    public partial class ObjectIdentityParameter : ParameterBase {
+        private string endPosTextField;
         
-        private string objectNoField;
+        private System.DateTime endDateAndTimeField;
         
-        private string objectUidField;
-        
-        private string externalIdField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string externalId {
-            get {
-                return this.externalIdField;
-            }
-            set {
-                this.externalIdField = value;
-                this.RaisePropertyChanged("externalId");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public partial class DateRange : ParameterBase {
-        
-        private System.Nullable<System.DateTime> fromField;
-        
-        private bool fromFieldSpecified;
-        
-        private System.Nullable<System.DateTime> toField;
-        
-        private bool toFieldSpecified;
-        
-        private System.Nullable<int> yearField;
-        
-        private bool yearFieldSpecified;
-        
-        private System.Nullable<int> monthField;
-        
-        private bool monthFieldSpecified;
-        
-        private System.Nullable<int> dayField;
-        
-        private bool dayFieldSpecified;
-        
-        private DateRangePattern rangePatternField;
-        
-        private bool rangePatternFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public System.Nullable<System.DateTime> from {
-            get {
-                return this.fromField;
-            }
-            set {
-                this.fromField = value;
-                this.RaisePropertyChanged("from");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool fromSpecified {
-            get {
-                return this.fromFieldSpecified;
-            }
-            set {
-                this.fromFieldSpecified = value;
-                this.RaisePropertyChanged("fromSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public System.Nullable<System.DateTime> to {
-            get {
-                return this.toField;
-            }
-            set {
-                this.toField = value;
-                this.RaisePropertyChanged("to");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool toSpecified {
-            get {
-                return this.toFieldSpecified;
-            }
-            set {
-                this.toFieldSpecified = value;
-                this.RaisePropertyChanged("toSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<int> year {
-            get {
-                return this.yearField;
-            }
-            set {
-                this.yearField = value;
-                this.RaisePropertyChanged("year");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool yearSpecified {
-            get {
-                return this.yearFieldSpecified;
-            }
-            set {
-                this.yearFieldSpecified = value;
-                this.RaisePropertyChanged("yearSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<int> month {
-            get {
-                return this.monthField;
-            }
-            set {
-                this.monthField = value;
-                this.RaisePropertyChanged("month");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool monthSpecified {
-            get {
-                return this.monthFieldSpecified;
-            }
-            set {
-                this.monthFieldSpecified = value;
-                this.RaisePropertyChanged("monthSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public System.Nullable<int> day {
-            get {
-                return this.dayField;
-            }
-            set {
-                this.dayField = value;
-                this.RaisePropertyChanged("day");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool daySpecified {
-            get {
-                return this.dayFieldSpecified;
-            }
-            set {
-                this.dayFieldSpecified = value;
-                this.RaisePropertyChanged("daySpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public DateRangePattern rangePattern {
-            get {
-                return this.rangePatternField;
-            }
-            set {
-                this.rangePatternField = value;
-                this.RaisePropertyChanged("rangePattern");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool rangePatternSpecified {
-            get {
-                return this.rangePatternFieldSpecified;
-            }
-            set {
-                this.rangePatternFieldSpecified = value;
-                this.RaisePropertyChanged("rangePatternSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public enum DateRangePattern {
-        
-        /// <remarks/>
-        UD,
-        
-        /// <remarks/>
-        D0,
-        
-        /// <remarks/>
-        Dm1,
-        
-        /// <remarks/>
-        Dm2,
-        
-        /// <remarks/>
-        Dm3,
-        
-        /// <remarks/>
-        Dm4,
-        
-        /// <remarks/>
-        Dm5,
-        
-        /// <remarks/>
-        Dm6,
-        
-        /// <remarks/>
-        W0,
-        
-        /// <remarks/>
-        Wm1,
-        
-        /// <remarks/>
-        Wm2,
-        
-        /// <remarks/>
-        Wm3,
-        
-        /// <remarks/>
-        WF0,
-        
-        /// <remarks/>
-        WFm1,
-        
-        /// <remarks/>
-        WFm2,
-        
-        /// <remarks/>
-        WFm3,
-        
-        /// <remarks/>
-        M0,
-        
-        /// <remarks/>
-        Mm1,
-        
-        /// <remarks/>
-        Mm2,
-        
-        /// <remarks/>
-        Mm3,
-        
-        /// <remarks/>
-        Mm4,
-        
-        /// <remarks/>
-        Mm5,
-        
-        /// <remarks/>
-        Mm6,
-        
-        /// <remarks/>
-        Mm7,
-        
-        /// <remarks/>
-        Mm8,
-        
-        /// <remarks/>
-        Mm9,
-        
-        /// <remarks/>
-        Y0,
-        
-        /// <remarks/>
-        Ym1,
-        
-        /// <remarks/>
-        Ym2,
-        
-        /// <remarks/>
-        Ym3,
-        
-        /// <remarks/>
-        Ym4,
-        
-        /// <remarks/>
-        Ym5,
-        
-        /// <remarks/>
-        Ym6,
-        
-        /// <remarks/>
-        Ym7,
-        
-        /// <remarks/>
-        Ym8,
-        
-        /// <remarks/>
-        Ym9,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class ClearTextMessagesParameter : ParameterBase {
-        
-        private string objectNoField;
-        
-        private string objectUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class QueueServiceParameter : ParameterBase {
-        
-        private QueueServiceMessageClassFilter filterField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public QueueServiceMessageClassFilter filter {
-            get {
-                return this.filterField;
-            }
-            set {
-                this.filterField = value;
-                this.RaisePropertyChanged("filter");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public enum QueueServiceMessageClassFilter {
-        
-        /// <remarks/>
-        ALL,
-        
-        /// <remarks/>
-        ALL_EXCEPT_POSITION_MESSAGES,
-        
-        /// <remarks/>
-        NOTIFICATIONS,
-        
-        /// <remarks/>
-        ORDER_RELATED,
-        
-        /// <remarks/>
-        DRIVER_RELATED,
-        
-        /// <remarks/>
-        AREA_RELATED,
-        
-        /// <remarks/>
-        STATUS,
-        
-        /// <remarks/>
-        TEXT,
-        
-        /// <remarks/>
-        TRIP,
-        
-        /// <remarks/>
-        INPUT_SIGNAL,
-        
-        /// <remarks/>
-        AUX_DEVICE_DATA,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class SimpleTextMessageParameter : ParameterBase {
-        
-        private ObjectIdentityParameter objectField;
-        
-        private string messageTextField;
+        private bool endDateAndTimeFieldSpecified;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public ObjectIdentityParameter @object {
+        public int startOdometer {
             get {
-                return this.objectField;
+                return this.startOdometerField;
             }
             set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
+                this.startOdometerField = value;
+                this.RaisePropertyChanged("startOdometer");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool startOdometerSpecified {
+            get {
+                return this.startOdometerFieldSpecified;
+            }
+            set {
+                this.startOdometerFieldSpecified = value;
+                this.RaisePropertyChanged("startOdometerSpecified");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public string messageText {
+        public string startPosText {
             get {
-                return this.messageTextField;
+                return this.startPosTextField;
             }
             set {
-                this.messageTextField = value;
-                this.RaisePropertyChanged("messageText");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class MessageIdentityParameter : ParameterBase {
-        
-        private long messageIdField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public long messageId {
-            get {
-                return this.messageIdField;
-            }
-            set {
-                this.messageIdField = value;
-                this.RaisePropertyChanged("messageId");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
-    public partial class OrderMessageReportParameters : ParameterBase {
-        
-        private ObjectIdentityParameter objectField;
-        
-        private string orderNoField;
-        
-        private System.Nullable<OrderType> orderTypeField;
-        
-        private bool orderTypeFieldSpecified;
-        
-        private System.Nullable<OrderStateCode> orderStateField;
-        
-        private bool orderStateFieldSpecified;
-        
-        private MessageIdentityParameter messageField;
-        
-        private DateRange dateRangeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public ObjectIdentityParameter @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
+                this.startPosTextField = value;
+                this.RaisePropertyChanged("startPosText");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string orderNo {
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public System.DateTime startDateAndTime {
             get {
-                return this.orderNoField;
+                return this.startDateAndTimeField;
             }
             set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<OrderType> orderType {
-            get {
-                return this.orderTypeField;
-            }
-            set {
-                this.orderTypeField = value;
-                this.RaisePropertyChanged("orderType");
+                this.startDateAndTimeField = value;
+                this.RaisePropertyChanged("startDateAndTime");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderTypeSpecified {
+        public bool startDateAndTimeSpecified {
             get {
-                return this.orderTypeFieldSpecified;
+                return this.startDateAndTimeFieldSpecified;
             }
             set {
-                this.orderTypeFieldSpecified = value;
-                this.RaisePropertyChanged("orderTypeSpecified");
+                this.startDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("startDateAndTimeSpecified");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<OrderStateCode> orderState {
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public int endOdometer {
             get {
-                return this.orderStateField;
+                return this.endOdometerField;
             }
             set {
-                this.orderStateField = value;
-                this.RaisePropertyChanged("orderState");
+                this.endOdometerField = value;
+                this.RaisePropertyChanged("endOdometer");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderStateSpecified {
+        public bool endOdometerSpecified {
             get {
-                return this.orderStateFieldSpecified;
+                return this.endOdometerFieldSpecified;
             }
             set {
-                this.orderStateFieldSpecified = value;
-                this.RaisePropertyChanged("orderStateSpecified");
+                this.endOdometerFieldSpecified = value;
+                this.RaisePropertyChanged("endOdometerSpecified");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public MessageIdentityParameter message {
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public string endPosText {
             get {
-                return this.messageField;
+                return this.endPosTextField;
             }
             set {
-                this.messageField = value;
-                this.RaisePropertyChanged("message");
+                this.endPosTextField = value;
+                this.RaisePropertyChanged("endPosText");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
-        public DateRange dateRange {
+        public System.DateTime endDateAndTime {
             get {
-                return this.dateRangeField;
+                return this.endDateAndTimeField;
             }
             set {
-                this.dateRangeField = value;
-                this.RaisePropertyChanged("dateRange");
+                this.endDateAndTimeField = value;
+                this.RaisePropertyChanged("endDateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool endDateAndTimeSpecified {
+            get {
+                return this.endDateAndTimeFieldSpecified;
+            }
+            set {
+                this.endDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("endDateAndTimeSpecified");
             }
         }
     }
@@ -13142,8 +9614,204 @@ namespace TomTomCall.ServiceReference1 {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class ClearOrdersParameter : ParameterBase {
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class StartAndEndPosWithCoordinates : StartAndEndPosition {
+        
+        private GeoPosition startPosField;
+        
+        private GeoPosition endPosField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public GeoPosition startPos {
+            get {
+                return this.startPosField;
+            }
+            set {
+                this.startPosField = value;
+                this.RaisePropertyChanged("startPos");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public GeoPosition endPos {
+            get {
+                return this.endPosField;
+            }
+            set {
+                this.endPosField = value;
+                this.RaisePropertyChanged("endPos");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicStartAndEndPosWithCoordinates))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class BasicStartAndEndPosition : TransferObjectBase {
+        
+        private string startPosTextField;
+        
+        private System.DateTime startDateAndTimeField;
+        
+        private bool startDateAndTimeFieldSpecified;
+        
+        private string endPosTextField;
+        
+        private System.DateTime endDateAndTimeField;
+        
+        private bool endDateAndTimeFieldSpecified;
+        
+        private long durationField;
+        
+        private bool durationFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string startPosText {
+            get {
+                return this.startPosTextField;
+            }
+            set {
+                this.startPosTextField = value;
+                this.RaisePropertyChanged("startPosText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public System.DateTime startDateAndTime {
+            get {
+                return this.startDateAndTimeField;
+            }
+            set {
+                this.startDateAndTimeField = value;
+                this.RaisePropertyChanged("startDateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool startDateAndTimeSpecified {
+            get {
+                return this.startDateAndTimeFieldSpecified;
+            }
+            set {
+                this.startDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("startDateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public string endPosText {
+            get {
+                return this.endPosTextField;
+            }
+            set {
+                this.endPosTextField = value;
+                this.RaisePropertyChanged("endPosText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public System.DateTime endDateAndTime {
+            get {
+                return this.endDateAndTimeField;
+            }
+            set {
+                this.endDateAndTimeField = value;
+                this.RaisePropertyChanged("endDateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool endDateAndTimeSpecified {
+            get {
+                return this.endDateAndTimeFieldSpecified;
+            }
+            set {
+                this.endDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("endDateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public long duration {
+            get {
+                return this.durationField;
+            }
+            set {
+                this.durationField = value;
+                this.RaisePropertyChanged("duration");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool durationSpecified {
+            get {
+                return this.durationFieldSpecified;
+            }
+            set {
+                this.durationFieldSpecified = value;
+                this.RaisePropertyChanged("durationSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class BasicStartAndEndPosWithCoordinates : BasicStartAndEndPosition {
+        
+        private BasicGeoPosition startPosField;
+        
+        private BasicGeoPosition endPosField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public BasicGeoPosition startPos {
+            get {
+                return this.startPosField;
+            }
+            set {
+                this.startPosField = value;
+                this.RaisePropertyChanged("startPos");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public BasicGeoPosition endPos {
+            get {
+                return this.endPosField;
+            }
+            set {
+                this.endPosField = value;
+                this.RaisePropertyChanged("endPos");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class ClearedOrders : TransferObjectBase {
         
         private bool markDeletedField;
         
@@ -13207,573 +9875,45 @@ namespace TomTomCall.ServiceReference1 {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class OrderReportParameters : ParameterBase {
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class OrderAddress : TransferObjectBase {
         
-        private ObjectIdentityParameter objectField;
+        private string addrNrField;
         
-        private string objectGroupNameField;
-        
-        private string orderNoField;
-        
-        private System.Nullable<OrderType> orderTypeField;
-        
-        private bool orderTypeFieldSpecified;
-        
-        private DateRange dateRangeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public ObjectIdentityParameter @object {
-            get {
-                return this.objectField;
-            }
-            set {
-                this.objectField = value;
-                this.RaisePropertyChanged("object");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string objectGroupName {
-            get {
-                return this.objectGroupNameField;
-            }
-            set {
-                this.objectGroupNameField = value;
-                this.RaisePropertyChanged("objectGroupName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public System.Nullable<OrderType> orderType {
-            get {
-                return this.orderTypeField;
-            }
-            set {
-                this.orderTypeField = value;
-                this.RaisePropertyChanged("orderType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderTypeSpecified {
-            get {
-                return this.orderTypeFieldSpecified;
-            }
-            set {
-                this.orderTypeFieldSpecified = value;
-                this.RaisePropertyChanged("orderTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public DateRange dateRange {
-            get {
-                return this.dateRangeField;
-            }
-            set {
-                this.dateRangeField = value;
-                this.RaisePropertyChanged("dateRange");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class DeleteOrderParameter : ParameterBase {
-        
-        private bool markDeletedField;
-        
-        private bool markDeletedFieldSpecified;
-        
-        private string orderNoField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public bool markDeleted {
-            get {
-                return this.markDeletedField;
-            }
-            set {
-                this.markDeletedField = value;
-                this.RaisePropertyChanged("markDeleted");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool markDeletedSpecified {
-            get {
-                return this.markDeletedFieldSpecified;
-            }
-            set {
-                this.markDeletedFieldSpecified = value;
-                this.RaisePropertyChanged("markDeletedSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class AssignOrderParameter : ParameterBase {
-        
-        private string orderNoField;
-        
-        private string objectNoField;
-        
-        private string objectUidField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectNo {
-            get {
-                return this.objectNoField;
-            }
-            set {
-                this.objectNoField = value;
-                this.RaisePropertyChanged("objectNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string objectUid {
-            get {
-                return this.objectUidField;
-            }
-            set {
-                this.objectUidField = value;
-                this.RaisePropertyChanged("objectUid");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class ShowWaypointsParameter : ParameterBase {
-        
-        private string orderNoField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicOrderParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class OrderIdentityParameter : ParameterBase {
-        
-        private string orderNoField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string orderNo {
-            get {
-                return this.orderNoField;
-            }
-            set {
-                this.orderNoField = value;
-                this.RaisePropertyChanged("orderNo");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class BasicOrderParameter : OrderIdentityParameter {
-        
-        private string orderTextField;
-        
-        public BasicOrderParameter() {
-            this.orderTextField = "";
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        [System.ComponentModel.DefaultValueAttribute("")]
-        public string orderText {
-            get {
-                return this.orderTextField;
-            }
-            set {
-                this.orderTextField = value;
-                this.RaisePropertyChanged("orderText");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class DestinationOrderUpdateParameter : BasicOrderParameter {
-        
-        private string addrNoToUseAsDestinationField;
-        
-        private LocationParameter explicitDestinationField;
-        
-        private OrderType orderTypeField;
-        
-        private bool orderTypeFieldSpecified;
-        
-        private System.DateTime scheduledCompletionDateAndTimeField;
-        
-        private bool scheduledCompletionDateAndTimeFieldSpecified;
-        
-        private ArrivalTolerance arrivalToleranceField;
-        
-        private bool arrivalToleranceFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string addrNoToUseAsDestination {
-            get {
-                return this.addrNoToUseAsDestinationField;
-            }
-            set {
-                this.addrNoToUseAsDestinationField = value;
-                this.RaisePropertyChanged("addrNoToUseAsDestination");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public LocationParameter explicitDestination {
-            get {
-                return this.explicitDestinationField;
-            }
-            set {
-                this.explicitDestinationField = value;
-                this.RaisePropertyChanged("explicitDestination");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public OrderType orderType {
-            get {
-                return this.orderTypeField;
-            }
-            set {
-                this.orderTypeField = value;
-                this.RaisePropertyChanged("orderType");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool orderTypeSpecified {
-            get {
-                return this.orderTypeFieldSpecified;
-            }
-            set {
-                this.orderTypeFieldSpecified = value;
-                this.RaisePropertyChanged("orderTypeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public System.DateTime scheduledCompletionDateAndTime {
-            get {
-                return this.scheduledCompletionDateAndTimeField;
-            }
-            set {
-                this.scheduledCompletionDateAndTimeField = value;
-                this.RaisePropertyChanged("scheduledCompletionDateAndTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool scheduledCompletionDateAndTimeSpecified {
-            get {
-                return this.scheduledCompletionDateAndTimeFieldSpecified;
-            }
-            set {
-                this.scheduledCompletionDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("scheduledCompletionDateAndTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ArrivalTolerance arrivalTolerance {
-            get {
-                return this.arrivalToleranceField;
-            }
-            set {
-                this.arrivalToleranceField = value;
-                this.RaisePropertyChanged("arrivalTolerance");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool arrivalToleranceSpecified {
-            get {
-                return this.arrivalToleranceFieldSpecified;
-            }
-            set {
-                this.arrivalToleranceFieldSpecified = value;
-                this.RaisePropertyChanged("arrivalToleranceSpecified");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class LocationParameter : BasicLocationParameter {
-        
-        private GeoPositionParameter geoPositionField;
-        
-        private ContactParameter contactField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public GeoPositionParameter geoPosition {
-            get {
-                return this.geoPositionField;
-            }
-            set {
-                this.geoPositionField = value;
-                this.RaisePropertyChanged("geoPosition");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public ContactParameter contact {
-            get {
-                return this.contactField;
-            }
-            set {
-                this.contactField = value;
-                this.RaisePropertyChanged("contact");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class GeoPositionParameter : ParameterBase {
-        
-        private int latitudeField;
-        
-        private int longitudeField;
-        
-        private string mapcodeField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int latitude {
-            get {
-                return this.latitudeField;
-            }
-            set {
-                this.latitudeField = value;
-                this.RaisePropertyChanged("latitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public int longitude {
-            get {
-                return this.longitudeField;
-            }
-            set {
-                this.longitudeField = value;
-                this.RaisePropertyChanged("longitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string mapcode {
-            get {
-                return this.mapcodeField;
-            }
-            set {
-                this.mapcodeField = value;
-                this.RaisePropertyChanged("mapcode");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class ContactParameter : ParameterBase {
-        
-        private string contactNameField;
-        
-        private string contactTelField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string contactName {
-            get {
-                return this.contactNameField;
-            }
-            set {
-                this.contactNameField = value;
-                this.RaisePropertyChanged("contactName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string contactTel {
-            get {
-                return this.contactTelField;
-            }
-            set {
-                this.contactTelField = value;
-                this.RaisePropertyChanged("contactTel");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationParameter))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class BasicLocationParameter : ParameterBase {
-        
-        private string streetField;
-        
-        private string postcodeField;
+        private string zipField;
         
         private string cityField;
         
+        private string streetField;
+        
         private string countryField;
-        
-        private string streetNumberField;
-        
-        public BasicLocationParameter() {
-            this.postcodeField = "";
-            this.cityField = "";
-        }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string street {
+        public string addrNr {
             get {
-                return this.streetField;
+                return this.addrNrField;
             }
             set {
-                this.streetField = value;
-                this.RaisePropertyChanged("street");
+                this.addrNrField = value;
+                this.RaisePropertyChanged("addrNr");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        [System.ComponentModel.DefaultValueAttribute("")]
-        public string postcode {
+        public string zip {
             get {
-                return this.postcodeField;
+                return this.zipField;
             }
             set {
-                this.postcodeField = value;
-                this.RaisePropertyChanged("postcode");
+                this.zipField = value;
+                this.RaisePropertyChanged("zip");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        [System.ComponentModel.DefaultValueAttribute("")]
         public string city {
             get {
                 return this.cityField;
@@ -13786,6 +9926,18 @@ namespace TomTomCall.ServiceReference1 {
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public string street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("street");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
         public string country {
             get {
                 return this.countryField;
@@ -13795,18 +9947,6 @@ namespace TomTomCall.ServiceReference1 {
                 this.RaisePropertyChanged("country");
             }
         }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public string streetNumber {
-            get {
-                return this.streetNumberField;
-            }
-            set {
-                this.streetNumberField = value;
-                this.RaisePropertyChanged("streetNumber");
-            }
-        }
     }
     
     /// <remarks/>
@@ -13814,87 +9954,297 @@ namespace TomTomCall.ServiceReference1 {
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
-    public partial class DestinationOrderParameter : BasicOrderParameter {
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class OrderState : TransferObjectBase {
         
-        private string addrNoToUseAsDestinationField;
+        private System.Nullable<System.DateTime> timeField;
         
-        private LocationParameter explicitDestinationField;
+        private bool timeFieldSpecified;
         
-        private System.Nullable<int> notificationMinutesField;
+        private string positionTextField;
         
-        private System.Nullable<bool> notificationEnabledField;
+        private BasicGeoPosition geoPositionField;
         
-        private OrderType orderTypeField;
+        private string messageTextField;
         
-        private bool orderTypeFieldSpecified;
-        
-        private System.DateTime scheduledCompletionDateAndTimeField;
-        
-        private bool scheduledCompletionDateAndTimeFieldSpecified;
-        
-        private ArrivalTolerance arrivalToleranceField;
-        
-        private bool arrivalToleranceFieldSpecified;
-        
-        public DestinationOrderParameter() {
-            this.notificationMinutesField = 15;
-            this.notificationEnabledField = false;
-        }
+        private OrderStateCode stateCodeField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string addrNoToUseAsDestination {
+        public System.Nullable<System.DateTime> time {
             get {
-                return this.addrNoToUseAsDestinationField;
+                return this.timeField;
             }
             set {
-                this.addrNoToUseAsDestinationField = value;
-                this.RaisePropertyChanged("addrNoToUseAsDestination");
+                this.timeField = value;
+                this.RaisePropertyChanged("time");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool timeSpecified {
+            get {
+                return this.timeFieldSpecified;
+            }
+            set {
+                this.timeFieldSpecified = value;
+                this.RaisePropertyChanged("timeSpecified");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public LocationParameter explicitDestination {
+        public string positionText {
             get {
-                return this.explicitDestinationField;
+                return this.positionTextField;
             }
             set {
-                this.explicitDestinationField = value;
-                this.RaisePropertyChanged("explicitDestination");
+                this.positionTextField = value;
+                this.RaisePropertyChanged("positionText");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        [System.ComponentModel.DefaultValueAttribute(15)]
-        public System.Nullable<int> notificationMinutes {
+        public BasicGeoPosition geoPosition {
             get {
-                return this.notificationMinutesField;
+                return this.geoPositionField;
             }
             set {
-                this.notificationMinutesField = value;
-                this.RaisePropertyChanged("notificationMinutes");
+                this.geoPositionField = value;
+                this.RaisePropertyChanged("geoPosition");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        [System.ComponentModel.DefaultValueAttribute(false)]
-        public System.Nullable<bool> notificationEnabled {
+        public string messageText {
             get {
-                return this.notificationEnabledField;
+                return this.messageTextField;
             }
             set {
-                this.notificationEnabledField = value;
-                this.RaisePropertyChanged("notificationEnabled");
+                this.messageTextField = value;
+                this.RaisePropertyChanged("messageText");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public OrderType orderType {
+        public OrderStateCode stateCode {
+            get {
+                return this.stateCodeField;
+            }
+            set {
+                this.stateCodeField = value;
+                this.RaisePropertyChanged("stateCode");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public enum OrderStateCode {
+        
+        /// <remarks/>
+        NotYetSent,
+        
+        /// <remarks/>
+        Sent,
+        
+        /// <remarks/>
+        Received,
+        
+        /// <remarks/>
+        Read,
+        
+        /// <remarks/>
+        Accepted,
+        
+        /// <remarks/>
+        ServiceOrderStarted,
+        
+        /// <remarks/>
+        ArrivedAtDestination,
+        
+        /// <remarks/>
+        WorkStarted,
+        
+        /// <remarks/>
+        WorkFinished,
+        
+        /// <remarks/>
+        DepartedFromDestination,
+        
+        /// <remarks/>
+        PickupOrderStarted,
+        
+        /// <remarks/>
+        ArrivedAtPickUpLocation,
+        
+        /// <remarks/>
+        PickUpStarted,
+        
+        /// <remarks/>
+        PickUpFinished,
+        
+        /// <remarks/>
+        DepartedFromPickUpLocation,
+        
+        /// <remarks/>
+        DeliveryOrderStarted,
+        
+        /// <remarks/>
+        ArrivedAtDeliveryLocation,
+        
+        /// <remarks/>
+        DeliveryStarted,
+        
+        /// <remarks/>
+        DeliveryFinished,
+        
+        /// <remarks/>
+        DepartedFromDeliveryLocation,
+        
+        /// <remarks/>
+        Resumed,
+        
+        /// <remarks/>
+        Suspended,
+        
+        /// <remarks/>
+        Cancelled,
+        
+        /// <remarks/>
+        Rejected,
+        
+        /// <remarks/>
+        Finished,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class ReportedOrderData : TransferObjectBase {
+        
+        private System.Nullable<System.DateTime> orderDateField;
+        
+        private bool orderDateFieldSpecified;
+        
+        private string orderIdField;
+        
+        private string orderTextField;
+        
+        private System.Nullable<OrderType> orderTypeField;
+        
+        private bool orderTypeFieldSpecified;
+        
+        private BasicObject objectField;
+        
+        private BasicGeoPosition geoPositionField;
+        
+        private string destinationField;
+        
+        private OrderState orderStateField;
+        
+        private System.Nullable<System.DateTime> plannedArrivalTimeField;
+        
+        private bool plannedArrivalTimeFieldSpecified;
+        
+        private System.Nullable<System.DateTime> estimatedArrivalTimeField;
+        
+        private bool estimatedArrivalTimeFieldSpecified;
+        
+        private System.Nullable<ArrivalTolerance> arrivalToleranceField;
+        
+        private bool arrivalToleranceFieldSpecified;
+        
+        private System.Nullable<DelayWarning> delayWarningField;
+        
+        private bool delayWarningFieldSpecified;
+        
+        private System.Nullable<bool> notificationEnabledField;
+        
+        private bool notificationEnabledFieldSpecified;
+        
+        private System.Nullable<int> notificationMinutesField;
+        
+        private bool notificationMinutesFieldSpecified;
+        
+        private string contactField;
+        
+        private string contacttelField;
+        
+        private string driverNoField;
+        
+        private string driverNameField;
+        
+        private string driverTelmobileField;
+        
+        private int waypointCountField;
+        
+        private bool waypointCountFieldSpecified;
+        
+        private OrderAddress orderAddressField;
+        
+        private string driverUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public System.Nullable<System.DateTime> orderDate {
+            get {
+                return this.orderDateField;
+            }
+            set {
+                this.orderDateField = value;
+                this.RaisePropertyChanged("orderDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderDateSpecified {
+            get {
+                return this.orderDateFieldSpecified;
+            }
+            set {
+                this.orderDateFieldSpecified = value;
+                this.RaisePropertyChanged("orderDateSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string orderId {
+            get {
+                return this.orderIdField;
+            }
+            set {
+                this.orderIdField = value;
+                this.RaisePropertyChanged("orderId");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string orderText {
+            get {
+                return this.orderTextField;
+            }
+            set {
+                this.orderTextField = value;
+                this.RaisePropertyChanged("orderText");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<OrderType> orderType {
             get {
                 return this.orderTypeField;
             }
@@ -13917,32 +10267,104 @@ namespace TomTomCall.ServiceReference1 {
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public System.DateTime scheduledCompletionDateAndTime {
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public BasicObject @object {
             get {
-                return this.scheduledCompletionDateAndTimeField;
+                return this.objectField;
             }
             set {
-                this.scheduledCompletionDateAndTimeField = value;
-                this.RaisePropertyChanged("scheduledCompletionDateAndTime");
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public BasicGeoPosition geoPosition {
+            get {
+                return this.geoPositionField;
+            }
+            set {
+                this.geoPositionField = value;
+                this.RaisePropertyChanged("geoPosition");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public string destination {
+            get {
+                return this.destinationField;
+            }
+            set {
+                this.destinationField = value;
+                this.RaisePropertyChanged("destination");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
+        public OrderState orderState {
+            get {
+                return this.orderStateField;
+            }
+            set {
+                this.orderStateField = value;
+                this.RaisePropertyChanged("orderState");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
+        public System.Nullable<System.DateTime> plannedArrivalTime {
+            get {
+                return this.plannedArrivalTimeField;
+            }
+            set {
+                this.plannedArrivalTimeField = value;
+                this.RaisePropertyChanged("plannedArrivalTime");
             }
         }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool scheduledCompletionDateAndTimeSpecified {
+        public bool plannedArrivalTimeSpecified {
             get {
-                return this.scheduledCompletionDateAndTimeFieldSpecified;
+                return this.plannedArrivalTimeFieldSpecified;
             }
             set {
-                this.scheduledCompletionDateAndTimeFieldSpecified = value;
-                this.RaisePropertyChanged("scheduledCompletionDateAndTimeSpecified");
+                this.plannedArrivalTimeFieldSpecified = value;
+                this.RaisePropertyChanged("plannedArrivalTimeSpecified");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public ArrivalTolerance arrivalTolerance {
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
+        public System.Nullable<System.DateTime> estimatedArrivalTime {
+            get {
+                return this.estimatedArrivalTimeField;
+            }
+            set {
+                this.estimatedArrivalTimeField = value;
+                this.RaisePropertyChanged("estimatedArrivalTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool estimatedArrivalTimeSpecified {
+            get {
+                return this.estimatedArrivalTimeFieldSpecified;
+            }
+            set {
+                this.estimatedArrivalTimeFieldSpecified = value;
+                this.RaisePropertyChanged("estimatedArrivalTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
+        public System.Nullable<ArrivalTolerance> arrivalTolerance {
             get {
                 return this.arrivalToleranceField;
             }
@@ -13961,6 +10383,2067 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.arrivalToleranceFieldSpecified = value;
                 this.RaisePropertyChanged("arrivalToleranceSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=11)]
+        public System.Nullable<DelayWarning> delayWarning {
+            get {
+                return this.delayWarningField;
+            }
+            set {
+                this.delayWarningField = value;
+                this.RaisePropertyChanged("delayWarning");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool delayWarningSpecified {
+            get {
+                return this.delayWarningFieldSpecified;
+            }
+            set {
+                this.delayWarningFieldSpecified = value;
+                this.RaisePropertyChanged("delayWarningSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=12)]
+        public System.Nullable<bool> notificationEnabled {
+            get {
+                return this.notificationEnabledField;
+            }
+            set {
+                this.notificationEnabledField = value;
+                this.RaisePropertyChanged("notificationEnabled");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool notificationEnabledSpecified {
+            get {
+                return this.notificationEnabledFieldSpecified;
+            }
+            set {
+                this.notificationEnabledFieldSpecified = value;
+                this.RaisePropertyChanged("notificationEnabledSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=13)]
+        public System.Nullable<int> notificationMinutes {
+            get {
+                return this.notificationMinutesField;
+            }
+            set {
+                this.notificationMinutesField = value;
+                this.RaisePropertyChanged("notificationMinutes");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool notificationMinutesSpecified {
+            get {
+                return this.notificationMinutesFieldSpecified;
+            }
+            set {
+                this.notificationMinutesFieldSpecified = value;
+                this.RaisePropertyChanged("notificationMinutesSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=14)]
+        public string contact {
+            get {
+                return this.contactField;
+            }
+            set {
+                this.contactField = value;
+                this.RaisePropertyChanged("contact");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=15)]
+        public string contacttel {
+            get {
+                return this.contacttelField;
+            }
+            set {
+                this.contacttelField = value;
+                this.RaisePropertyChanged("contacttel");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=16)]
+        public string driverNo {
+            get {
+                return this.driverNoField;
+            }
+            set {
+                this.driverNoField = value;
+                this.RaisePropertyChanged("driverNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=17)]
+        public string driverName {
+            get {
+                return this.driverNameField;
+            }
+            set {
+                this.driverNameField = value;
+                this.RaisePropertyChanged("driverName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=18)]
+        public string driverTelmobile {
+            get {
+                return this.driverTelmobileField;
+            }
+            set {
+                this.driverTelmobileField = value;
+                this.RaisePropertyChanged("driverTelmobile");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=19)]
+        public int waypointCount {
+            get {
+                return this.waypointCountField;
+            }
+            set {
+                this.waypointCountField = value;
+                this.RaisePropertyChanged("waypointCount");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool waypointCountSpecified {
+            get {
+                return this.waypointCountFieldSpecified;
+            }
+            set {
+                this.waypointCountFieldSpecified = value;
+                this.RaisePropertyChanged("waypointCountSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=20)]
+        public OrderAddress orderAddress {
+            get {
+                return this.orderAddressField;
+            }
+            set {
+                this.orderAddressField = value;
+                this.RaisePropertyChanged("orderAddress");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=21)]
+        public string driverUid {
+            get {
+                return this.driverUidField;
+            }
+            set {
+                this.driverUidField = value;
+                this.RaisePropertyChanged("driverUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public enum OrderType {
+        
+        /// <remarks/>
+        SERVICE_ORDER,
+        
+        /// <remarks/>
+        PICKUP_ORDER,
+        
+        /// <remarks/>
+        DELIVERY_ORDER,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public enum ArrivalTolerance {
+        
+        /// <remarks/>
+        ZERO,
+        
+        /// <remarks/>
+        QUARTERHOUR,
+        
+        /// <remarks/>
+        HALFHOUR,
+        
+        /// <remarks/>
+        ONEHOUR,
+        
+        /// <remarks/>
+        TWOHOURS,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public enum DelayWarning {
+        
+        /// <remarks/>
+        delayWithinTolerance,
+        
+        /// <remarks/>
+        delayOutsideTolerance,
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrder))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class BasicDestinationOrder : TransferObjectBase {
+        
+        private string textField;
+        
+        private System.Nullable<OrderType> typeField;
+        
+        private System.Nullable<System.DateTime> dateAndTimeField;
+        
+        private bool dateAndTimeFieldSpecified;
+        
+        private System.Nullable<ArrivalTolerance> arrivalToleranceField;
+        
+        private bool arrivalToleranceFieldSpecified;
+        
+        private string orderNoField;
+        
+        public BasicDestinationOrder() {
+            this.typeField = OrderType.SERVICE_ORDER;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("text");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        [System.ComponentModel.DefaultValueAttribute(OrderType.SERVICE_ORDER)]
+        public System.Nullable<OrderType> type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<System.DateTime> dateAndTime {
+            get {
+                return this.dateAndTimeField;
+            }
+            set {
+                this.dateAndTimeField = value;
+                this.RaisePropertyChanged("dateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool dateAndTimeSpecified {
+            get {
+                return this.dateAndTimeFieldSpecified;
+            }
+            set {
+                this.dateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("dateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<ArrivalTolerance> arrivalTolerance {
+            get {
+                return this.arrivalToleranceField;
+            }
+            set {
+                this.arrivalToleranceField = value;
+                this.RaisePropertyChanged("arrivalTolerance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool arrivalToleranceSpecified {
+            get {
+                return this.arrivalToleranceFieldSpecified;
+            }
+            set {
+                this.arrivalToleranceFieldSpecified = value;
+                this.RaisePropertyChanged("arrivalToleranceSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class DestinationOrder : BasicDestinationOrder {
+        
+        private string contactNameField;
+        
+        private string contactTelField;
+        
+        private string addrNrField;
+        
+        private string postcodeField;
+        
+        private string cityField;
+        
+        private string streetField;
+        
+        private string countryField;
+        
+        private System.Nullable<int> longitudeField;
+        
+        private bool longitudeFieldSpecified;
+        
+        private System.Nullable<int> latitudeField;
+        
+        private bool latitudeFieldSpecified;
+        
+        private int notificationMinutesField;
+        
+        private bool notificationMinutesFieldSpecified;
+        
+        private bool notificationEnabledField;
+        
+        private bool notificationEnabledFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string contactName {
+            get {
+                return this.contactNameField;
+            }
+            set {
+                this.contactNameField = value;
+                this.RaisePropertyChanged("contactName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string contactTel {
+            get {
+                return this.contactTelField;
+            }
+            set {
+                this.contactTelField = value;
+                this.RaisePropertyChanged("contactTel");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string addrNr {
+            get {
+                return this.addrNrField;
+            }
+            set {
+                this.addrNrField = value;
+                this.RaisePropertyChanged("addrNr");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public string postcode {
+            get {
+                return this.postcodeField;
+            }
+            set {
+                this.postcodeField = value;
+                this.RaisePropertyChanged("postcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public string city {
+            get {
+                return this.cityField;
+            }
+            set {
+                this.cityField = value;
+                this.RaisePropertyChanged("city");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public string street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("street");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public string country {
+            get {
+                return this.countryField;
+            }
+            set {
+                this.countryField = value;
+                this.RaisePropertyChanged("country");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
+        public System.Nullable<int> longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("longitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool longitudeSpecified {
+            get {
+                return this.longitudeFieldSpecified;
+            }
+            set {
+                this.longitudeFieldSpecified = value;
+                this.RaisePropertyChanged("longitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
+        public System.Nullable<int> latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool latitudeSpecified {
+            get {
+                return this.latitudeFieldSpecified;
+            }
+            set {
+                this.latitudeFieldSpecified = value;
+                this.RaisePropertyChanged("latitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=9)]
+        public int notificationMinutes {
+            get {
+                return this.notificationMinutesField;
+            }
+            set {
+                this.notificationMinutesField = value;
+                this.RaisePropertyChanged("notificationMinutes");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool notificationMinutesSpecified {
+            get {
+                return this.notificationMinutesFieldSpecified;
+            }
+            set {
+                this.notificationMinutesFieldSpecified = value;
+                this.RaisePropertyChanged("notificationMinutesSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=10)]
+        public bool notificationEnabled {
+            get {
+                return this.notificationEnabledField;
+            }
+            set {
+                this.notificationEnabledField = value;
+                this.RaisePropertyChanged("notificationEnabled");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool notificationEnabledSpecified {
+            get {
+                return this.notificationEnabledFieldSpecified;
+            }
+            set {
+                this.notificationEnabledFieldSpecified = value;
+                this.RaisePropertyChanged("notificationEnabledSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public partial class Travel : TransferObjectBase {
+        
+        private int speedField;
+        
+        private bool speedFieldSpecified;
+        
+        private int courseField;
+        
+        private bool courseFieldSpecified;
+        
+        private IntercardinalDirections directionField;
+        
+        private bool directionFieldSpecified;
+        
+        private int odometerField;
+        
+        private bool odometerFieldSpecified;
+        
+        private System.DateTime estimatedArrivalTimeField;
+        
+        private bool estimatedArrivalTimeFieldSpecified;
+        
+        private int distanceField;
+        
+        private bool distanceFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public int speed {
+            get {
+                return this.speedField;
+            }
+            set {
+                this.speedField = value;
+                this.RaisePropertyChanged("speed");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool speedSpecified {
+            get {
+                return this.speedFieldSpecified;
+            }
+            set {
+                this.speedFieldSpecified = value;
+                this.RaisePropertyChanged("speedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public int course {
+            get {
+                return this.courseField;
+            }
+            set {
+                this.courseField = value;
+                this.RaisePropertyChanged("course");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool courseSpecified {
+            get {
+                return this.courseFieldSpecified;
+            }
+            set {
+                this.courseFieldSpecified = value;
+                this.RaisePropertyChanged("courseSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public IntercardinalDirections direction {
+            get {
+                return this.directionField;
+            }
+            set {
+                this.directionField = value;
+                this.RaisePropertyChanged("direction");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool directionSpecified {
+            get {
+                return this.directionFieldSpecified;
+            }
+            set {
+                this.directionFieldSpecified = value;
+                this.RaisePropertyChanged("directionSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public int odometer {
+            get {
+                return this.odometerField;
+            }
+            set {
+                this.odometerField = value;
+                this.RaisePropertyChanged("odometer");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool odometerSpecified {
+            get {
+                return this.odometerFieldSpecified;
+            }
+            set {
+                this.odometerFieldSpecified = value;
+                this.RaisePropertyChanged("odometerSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public System.DateTime estimatedArrivalTime {
+            get {
+                return this.estimatedArrivalTimeField;
+            }
+            set {
+                this.estimatedArrivalTimeField = value;
+                this.RaisePropertyChanged("estimatedArrivalTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool estimatedArrivalTimeSpecified {
+            get {
+                return this.estimatedArrivalTimeFieldSpecified;
+            }
+            set {
+                this.estimatedArrivalTimeFieldSpecified = value;
+                this.RaisePropertyChanged("estimatedArrivalTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
+        public int distance {
+            get {
+                return this.distanceField;
+            }
+            set {
+                this.distanceField = value;
+                this.RaisePropertyChanged("distance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool distanceSpecified {
+            get {
+                return this.distanceFieldSpecified;
+            }
+            set {
+                this.distanceFieldSpecified = value;
+                this.RaisePropertyChanged("distanceSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class GPSFix : TransferObjectBase {
+        
+        private string qualityField;
+        
+        private string satelliteField;
+        
+        private GPSSignalStatus signalStatusField;
+        
+        private bool signalStatusFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string quality {
+            get {
+                return this.qualityField;
+            }
+            set {
+                this.qualityField = value;
+                this.RaisePropertyChanged("quality");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string satellite {
+            get {
+                return this.satelliteField;
+            }
+            set {
+                this.satelliteField = value;
+                this.RaisePropertyChanged("satellite");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public GPSSignalStatus signalStatus {
+            get {
+                return this.signalStatusField;
+            }
+            set {
+                this.signalStatusField = value;
+                this.RaisePropertyChanged("signalStatus");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool signalStatusSpecified {
+            get {
+                return this.signalStatusFieldSpecified;
+            }
+            set {
+                this.signalStatusFieldSpecified = value;
+                this.RaisePropertyChanged("signalStatusSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/positions")]
+    public enum GPSSignalStatus {
+        
+        /// <remarks/>
+        OK,
+        
+        /// <remarks/>
+        WARN,
+        
+        /// <remarks/>
+        LAST,
+        
+        /// <remarks/>
+        INVALID,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class BasicPosition : TransferObjectBase {
+        
+        private GeoPosition geoPositionField;
+        
+        private System.DateTime dateAndTimeField;
+        
+        private bool dateAndTimeFieldSpecified;
+        
+        private string textualRepresentationField;
+        
+        private string shortTextualRepresentationField;
+        
+        private int typeField;
+        
+        private bool typeFieldSpecified;
+        
+        private string altitudeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public GeoPosition geoPosition {
+            get {
+                return this.geoPositionField;
+            }
+            set {
+                this.geoPositionField = value;
+                this.RaisePropertyChanged("geoPosition");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public System.DateTime dateAndTime {
+            get {
+                return this.dateAndTimeField;
+            }
+            set {
+                this.dateAndTimeField = value;
+                this.RaisePropertyChanged("dateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool dateAndTimeSpecified {
+            get {
+                return this.dateAndTimeFieldSpecified;
+            }
+            set {
+                this.dateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("dateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public string textualRepresentation {
+            get {
+                return this.textualRepresentationField;
+            }
+            set {
+                this.textualRepresentationField = value;
+                this.RaisePropertyChanged("textualRepresentation");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public string shortTextualRepresentation {
+            get {
+                return this.shortTextualRepresentationField;
+            }
+            set {
+                this.shortTextualRepresentationField = value;
+                this.RaisePropertyChanged("shortTextualRepresentation");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int type {
+            get {
+                return this.typeField;
+            }
+            set {
+                this.typeField = value;
+                this.RaisePropertyChanged("type");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool typeSpecified {
+            get {
+                return this.typeFieldSpecified;
+            }
+            set {
+                this.typeFieldSpecified = value;
+                this.RaisePropertyChanged("typeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string altitude {
+            get {
+                return this.altitudeField;
+            }
+            set {
+                this.altitudeField = value;
+                this.RaisePropertyChanged("altitude");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
+    public partial class BasicMessage : TransferObjectBase {
+        
+        private System.DateTime dateAndTimeField;
+        
+        private bool dateAndTimeFieldSpecified;
+        
+        private string textField;
+        
+        private MessageClass classField;
+        
+        private bool classFieldSpecified;
+        
+        private MessageTransmissionState transmissionStateField;
+        
+        private bool transmissionStateFieldSpecified;
+        
+        private long messageIdField;
+        
+        private string flagField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public System.DateTime dateAndTime {
+            get {
+                return this.dateAndTimeField;
+            }
+            set {
+                this.dateAndTimeField = value;
+                this.RaisePropertyChanged("dateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool dateAndTimeSpecified {
+            get {
+                return this.dateAndTimeFieldSpecified;
+            }
+            set {
+                this.dateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("dateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string text {
+            get {
+                return this.textField;
+            }
+            set {
+                this.textField = value;
+                this.RaisePropertyChanged("text");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public MessageClass @class {
+            get {
+                return this.classField;
+            }
+            set {
+                this.classField = value;
+                this.RaisePropertyChanged("class");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool classSpecified {
+            get {
+                return this.classFieldSpecified;
+            }
+            set {
+                this.classFieldSpecified = value;
+                this.RaisePropertyChanged("classSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public MessageTransmissionState transmissionState {
+            get {
+                return this.transmissionStateField;
+            }
+            set {
+                this.transmissionStateField = value;
+                this.RaisePropertyChanged("transmissionState");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool transmissionStateSpecified {
+            get {
+                return this.transmissionStateFieldSpecified;
+            }
+            set {
+                this.transmissionStateFieldSpecified = value;
+                this.RaisePropertyChanged("transmissionStateSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public long messageId {
+            get {
+                return this.messageIdField;
+            }
+            set {
+                this.messageIdField = value;
+                this.RaisePropertyChanged("messageId");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string flag {
+            get {
+                return this.flagField;
+            }
+            set {
+                this.flagField = value;
+                this.RaisePropertyChanged("flag");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/messages")]
+    public enum MessageTransmissionState {
+        
+        /// <remarks/>
+        WAITING_FOR_SEND,
+        
+        /// <remarks/>
+        QUEUED,
+        
+        /// <remarks/>
+        WAITING_FOR_SEND_EXPECTING_ANSWER,
+        
+        /// <remarks/>
+        QUEUED_EXPECTING_ANSWER,
+        
+        /// <remarks/>
+        SENT,
+        
+        /// <remarks/>
+        SENT_EXPECTING_ANSWER,
+        
+        /// <remarks/>
+        DELIVERED,
+        
+        /// <remarks/>
+        DELIVERED_EXPECTING_ANSWER,
+        
+        /// <remarks/>
+        CANCELLED,
+        
+        /// <remarks/>
+        ERROR,
+        
+        /// <remarks/>
+        RECEIVED,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public partial class ReportedOrderMessageData : TransferObjectBase {
+        
+        private BasicMessage messageField;
+        
+        private BasicObject objectField;
+        
+        private BasicPosition positionField;
+        
+        private string orderIdField;
+        
+        private OrderStateCode orderStateCodeField;
+        
+        private bool orderStateCodeFieldSpecified;
+        
+        private System.Nullable<int> userStateCodeField;
+        
+        private bool userStateCodeFieldSpecified;
+        
+        private string userTextMessageField;
+        
+        private GPSFix gpsFixField;
+        
+        private Travel travelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public BasicMessage message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("message");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public BasicObject @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public BasicPosition position {
+            get {
+                return this.positionField;
+            }
+            set {
+                this.positionField = value;
+                this.RaisePropertyChanged("position");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public string orderId {
+            get {
+                return this.orderIdField;
+            }
+            set {
+                this.orderIdField = value;
+                this.RaisePropertyChanged("orderId");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public OrderStateCode orderStateCode {
+            get {
+                return this.orderStateCodeField;
+            }
+            set {
+                this.orderStateCodeField = value;
+                this.RaisePropertyChanged("orderStateCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderStateCodeSpecified {
+            get {
+                return this.orderStateCodeFieldSpecified;
+            }
+            set {
+                this.orderStateCodeFieldSpecified = value;
+                this.RaisePropertyChanged("orderStateCodeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public System.Nullable<int> userStateCode {
+            get {
+                return this.userStateCodeField;
+            }
+            set {
+                this.userStateCodeField = value;
+                this.RaisePropertyChanged("userStateCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool userStateCodeSpecified {
+            get {
+                return this.userStateCodeFieldSpecified;
+            }
+            set {
+                this.userStateCodeFieldSpecified = value;
+                this.RaisePropertyChanged("userStateCodeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public string userTextMessage {
+            get {
+                return this.userTextMessageField;
+            }
+            set {
+                this.userTextMessageField = value;
+                this.RaisePropertyChanged("userTextMessage");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=7)]
+        public GPSFix gpsFix {
+            get {
+                return this.gpsFixField;
+            }
+            set {
+                this.gpsFixField = value;
+                this.RaisePropertyChanged("gpsFix");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=8)]
+        public Travel travel {
+            get {
+                return this.travelField;
+            }
+            set {
+                this.travelField = value;
+                this.RaisePropertyChanged("travel");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class KeyValuePair : TransferObjectBase {
+        
+        private string keyField;
+        
+        private string valueField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string key {
+            get {
+                return this.keyField;
+            }
+            set {
+                this.keyField = value;
+                this.RaisePropertyChanged("key");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string value {
+            get {
+                return this.valueField;
+            }
+            set {
+                this.valueField = value;
+                this.RaisePropertyChanged("value");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class NearestVehicleTO : TransferObjectBase {
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        private System.Nullable<objectState> objectStateField;
+        
+        private bool objectStateFieldSpecified;
+        
+        private System.Nullable<int> latitudeField;
+        
+        private bool latitudeFieldSpecified;
+        
+        private System.Nullable<int> longitudeField;
+        
+        private bool longitudeFieldSpecified;
+        
+        private System.Nullable<long> linearDistanceField;
+        
+        private bool linearDistanceFieldSpecified;
+        
+        private System.Nullable<long> routeDistanceField;
+        
+        private bool routeDistanceFieldSpecified;
+        
+        private System.Nullable<int> routeTimeField;
+        
+        private bool routeTimeFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<objectState> objectState {
+            get {
+                return this.objectStateField;
+            }
+            set {
+                this.objectStateField = value;
+                this.RaisePropertyChanged("objectState");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool objectStateSpecified {
+            get {
+                return this.objectStateFieldSpecified;
+            }
+            set {
+                this.objectStateFieldSpecified = value;
+                this.RaisePropertyChanged("objectStateSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<int> latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool latitudeSpecified {
+            get {
+                return this.latitudeFieldSpecified;
+            }
+            set {
+                this.latitudeFieldSpecified = value;
+                this.RaisePropertyChanged("latitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public System.Nullable<int> longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("longitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool longitudeSpecified {
+            get {
+                return this.longitudeFieldSpecified;
+            }
+            set {
+                this.longitudeFieldSpecified = value;
+                this.RaisePropertyChanged("longitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public System.Nullable<long> linearDistance {
+            get {
+                return this.linearDistanceField;
+            }
+            set {
+                this.linearDistanceField = value;
+                this.RaisePropertyChanged("linearDistance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool linearDistanceSpecified {
+            get {
+                return this.linearDistanceFieldSpecified;
+            }
+            set {
+                this.linearDistanceFieldSpecified = value;
+                this.RaisePropertyChanged("linearDistanceSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public System.Nullable<long> routeDistance {
+            get {
+                return this.routeDistanceField;
+            }
+            set {
+                this.routeDistanceField = value;
+                this.RaisePropertyChanged("routeDistance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool routeDistanceSpecified {
+            get {
+                return this.routeDistanceFieldSpecified;
+            }
+            set {
+                this.routeDistanceFieldSpecified = value;
+                this.RaisePropertyChanged("routeDistanceSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
+        public System.Nullable<int> routeTime {
+            get {
+                return this.routeTimeField;
+            }
+            set {
+                this.routeTimeField = value;
+                this.RaisePropertyChanged("routeTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool routeTimeSpecified {
+            get {
+                return this.routeTimeFieldSpecified;
+            }
+            set {
+                this.routeTimeFieldSpecified = value;
+                this.RaisePropertyChanged("routeTimeSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public enum objectState {
+        
+        /// <remarks/>
+        AVAILABLE,
+        
+        /// <remarks/>
+        HAS_ORDER,
+        
+        /// <remarks/>
+        OFFLINE,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class SwitchOutputTO : TransferObjectBase {
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        private int statusField;
+        
+        private bool statusFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public int status {
+            get {
+                return this.statusField;
+            }
+            set {
+                this.statusField = value;
+                this.RaisePropertyChanged("status");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool statusSpecified {
+            get {
+                return this.statusFieldSpecified;
+            }
+            set {
+                this.statusFieldSpecified = value;
+                this.RaisePropertyChanged("statusSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class DriverVehicleAssignment : TransferObjectBase {
+        
+        private string driverNoField;
+        
+        private string objectNoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string driverNo {
+            get {
+                return this.driverNoField;
+            }
+            set {
+                this.driverNoField = value;
+                this.RaisePropertyChanged("driverNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class ItnWaypoint : TransferObjectBase {
+        
+        private int waypointNoField;
+        
+        private bool waypointNoFieldSpecified;
+        
+        private int latitudeField;
+        
+        private bool latitudeFieldSpecified;
+        
+        private int longitudeField;
+        
+        private bool longitudeFieldSpecified;
+        
+        private string descriptionField;
+        
+        private bool showInListField;
+        
+        private bool showInListFieldSpecified;
+        
+        private bool notifyPassingField;
+        
+        private bool notifyPassingFieldSpecified;
+        
+        private ItnWaypointState stateField;
+        
+        private bool stateFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public int waypointNo {
+            get {
+                return this.waypointNoField;
+            }
+            set {
+                this.waypointNoField = value;
+                this.RaisePropertyChanged("waypointNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool waypointNoSpecified {
+            get {
+                return this.waypointNoFieldSpecified;
+            }
+            set {
+                this.waypointNoFieldSpecified = value;
+                this.RaisePropertyChanged("waypointNoSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public int latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool latitudeSpecified {
+            get {
+                return this.latitudeFieldSpecified;
+            }
+            set {
+                this.latitudeFieldSpecified = value;
+                this.RaisePropertyChanged("latitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public int longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("longitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool longitudeSpecified {
+            get {
+                return this.longitudeFieldSpecified;
+            }
+            set {
+                this.longitudeFieldSpecified = value;
+                this.RaisePropertyChanged("longitudeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public string description {
+            get {
+                return this.descriptionField;
+            }
+            set {
+                this.descriptionField = value;
+                this.RaisePropertyChanged("description");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=4)]
+        public bool showInList {
+            get {
+                return this.showInListField;
+            }
+            set {
+                this.showInListField = value;
+                this.RaisePropertyChanged("showInList");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool showInListSpecified {
+            get {
+                return this.showInListFieldSpecified;
+            }
+            set {
+                this.showInListFieldSpecified = value;
+                this.RaisePropertyChanged("showInListSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
+        public bool notifyPassing {
+            get {
+                return this.notifyPassingField;
+            }
+            set {
+                this.notifyPassingField = value;
+                this.RaisePropertyChanged("notifyPassing");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool notifyPassingSpecified {
+            get {
+                return this.notifyPassingFieldSpecified;
+            }
+            set {
+                this.notifyPassingFieldSpecified = value;
+                this.RaisePropertyChanged("notifyPassingSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=6)]
+        public ItnWaypointState state {
+            get {
+                return this.stateField;
+            }
+            set {
+                this.stateField = value;
+                this.RaisePropertyChanged("state");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool stateSpecified {
+            get {
+                return this.stateFieldSpecified;
+            }
+            set {
+                this.stateFieldSpecified = value;
+                this.RaisePropertyChanged("stateSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer/orders")]
+    public enum ItnWaypointState {
+        
+        /// <remarks/>
+        NORMAL,
+        
+        /// <remarks/>
+        REJECTED,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class ErrorInfo : TransferObjectBase {
+        
+        private string msgField;
+        
+        private string objectNameField;
+        
+        private string fieldNameField;
+        
+        public ErrorInfo() {
+            this.msgField = "";
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string msg {
+            get {
+                return this.msgField;
+            }
+            set {
+                this.msgField = value;
+                this.RaisePropertyChanged("msg");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectName {
+            get {
+                return this.objectNameField;
+            }
+            set {
+                this.objectNameField = value;
+                this.RaisePropertyChanged("objectName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string fieldName {
+            get {
+                return this.fieldNameField;
+            }
+            set {
+                this.fieldNameField = value;
+                this.RaisePropertyChanged("fieldName");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceWriteOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ServiceQueryOpResult))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public abstract partial class ServiceOpResult : TransferObjectBase {
+        
+        private int statusCodeField;
+        
+        private string statusMessageField;
+        
+        private ErrorInfo[] errorsField;
+        
+        public ServiceOpResult() {
+            this.statusCodeField = -1;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public int statusCode {
+            get {
+                return this.statusCodeField;
+            }
+            set {
+                this.statusCodeField = value;
+                this.RaisePropertyChanged("statusCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string statusMessage {
+            get {
+                return this.statusMessageField;
+            }
+            set {
+                this.statusMessageField = value;
+                this.RaisePropertyChanged("statusMessage");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("errorInfo", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
+        public ErrorInfo[] errors {
+            get {
+                return this.errorsField;
+            }
+            set {
+                this.errorsField = value;
+                this.RaisePropertyChanged("errors");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceWriteOpResult))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class ServiceWriteOpResult : ServiceOpResult {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class GenericServiceWriteOpResult : ServiceWriteOpResult {
+        
+        private TransferObjectBase failedField;
+        
+        private TransferObjectBase succeededField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public TransferObjectBase failed {
+            get {
+                return this.failedField;
+            }
+            set {
+                this.failedField = value;
+                this.RaisePropertyChanged("failed");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public TransferObjectBase succeeded {
+            get {
+                return this.succeededField;
+            }
+            set {
+                this.succeededField = value;
+                this.RaisePropertyChanged("succeeded");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(GenericServiceQueryOpResult))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class ServiceQueryOpResult : ServiceOpResult {
+        
+        private int resultSizeField;
+        
+        public ServiceQueryOpResult() {
+            this.resultSizeField = 0;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public int resultSize {
+            get {
+                return this.resultSizeField;
+            }
+            set {
+                this.resultSizeField = value;
+                this.RaisePropertyChanged("resultSize");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/transfer")]
+    public partial class GenericServiceQueryOpResult : ServiceQueryOpResult {
+        
+        private TransferObjectBase[] resultsField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("resultItem", Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=false)]
+        public TransferObjectBase[] results {
+            get {
+                return this.resultsField;
+            }
+            set {
+                this.resultsField = value;
+                this.RaisePropertyChanged("results");
             }
         }
     }
@@ -14222,9 +12705,9 @@ namespace TomTomCall.ServiceReference1 {
     }
     
     /// <remarks/>
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressFilterParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ObjectFilterParameter))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(DriverFilterParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AddressFilterParameter))]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -14248,94 +12731,6 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.filterCriterionField = value;
                 this.RaisePropertyChanged("filterCriterion");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class AddressFilterParameter : FilterParameter {
-        
-        private string addressNoField;
-        
-        private string addressGroupNameField;
-        
-        private System.Nullable<bool> ungroupedOnlyField;
-        
-        private bool ungroupedOnlyFieldSpecified;
-        
-        private string addressUidField;
-        
-        public AddressFilterParameter() {
-            this.addressNoField = "";
-            this.addressGroupNameField = "";
-            this.addressUidField = "";
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        [System.ComponentModel.DefaultValueAttribute("")]
-        public string addressNo {
-            get {
-                return this.addressNoField;
-            }
-            set {
-                this.addressNoField = value;
-                this.RaisePropertyChanged("addressNo");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        [System.ComponentModel.DefaultValueAttribute("")]
-        public string addressGroupName {
-            get {
-                return this.addressGroupNameField;
-            }
-            set {
-                this.addressGroupNameField = value;
-                this.RaisePropertyChanged("addressGroupName");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public System.Nullable<bool> ungroupedOnly {
-            get {
-                return this.ungroupedOnlyField;
-            }
-            set {
-                this.ungroupedOnlyField = value;
-                this.RaisePropertyChanged("ungroupedOnly");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool ungroupedOnlySpecified {
-            get {
-                return this.ungroupedOnlyFieldSpecified;
-            }
-            set {
-                this.ungroupedOnlyFieldSpecified = value;
-                this.RaisePropertyChanged("ungroupedOnlySpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        [System.ComponentModel.DefaultValueAttribute("")]
-        public string addressUid {
-            get {
-                return this.addressUidField;
-            }
-            set {
-                this.addressUidField = value;
-                this.RaisePropertyChanged("addressUid");
             }
         }
     }
@@ -14401,6 +12796,57 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.ungroupedOnlyFieldSpecified = value;
                 this.RaisePropertyChanged("ungroupedOnlySpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/objects")]
+    public partial class ObjectIdentityParameter : ParameterBase {
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        private string externalIdField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string externalId {
+            get {
+                return this.externalIdField;
+            }
+            set {
+                this.externalIdField = value;
+                this.RaisePropertyChanged("externalId");
             }
         }
     }
@@ -14489,6 +12935,94 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.driverUidField = value;
                 this.RaisePropertyChanged("driverUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class AddressFilterParameter : FilterParameter {
+        
+        private string addressNoField;
+        
+        private string addressGroupNameField;
+        
+        private System.Nullable<bool> ungroupedOnlyField;
+        
+        private bool ungroupedOnlyFieldSpecified;
+        
+        private string addressUidField;
+        
+        public AddressFilterParameter() {
+            this.addressNoField = "";
+            this.addressGroupNameField = "";
+            this.addressUidField = "";
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string addressNo {
+            get {
+                return this.addressNoField;
+            }
+            set {
+                this.addressNoField = value;
+                this.RaisePropertyChanged("addressNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string addressGroupName {
+            get {
+                return this.addressGroupNameField;
+            }
+            set {
+                this.addressGroupNameField = value;
+                this.RaisePropertyChanged("addressGroupName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<bool> ungroupedOnly {
+            get {
+                return this.ungroupedOnlyField;
+            }
+            set {
+                this.ungroupedOnlyField = value;
+                this.RaisePropertyChanged("ungroupedOnly");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ungroupedOnlySpecified {
+            get {
+                return this.ungroupedOnlyFieldSpecified;
+            }
+            set {
+                this.ungroupedOnlyFieldSpecified = value;
+                this.RaisePropertyChanged("ungroupedOnlySpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string addressUid {
+            get {
+                return this.addressUidField;
+            }
+            set {
+                this.addressUidField = value;
+                this.RaisePropertyChanged("addressUid");
             }
         }
     }
@@ -15273,398 +13807,6 @@ namespace TomTomCall.ServiceReference1 {
         
         /// <remarks/>
         IST,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class RoutingParameter : ParameterBase {
-        
-        private int startLongitudeField;
-        
-        private int startLatitudeField;
-        
-        private int endLongitudeField;
-        
-        private int endLatitudeField;
-        
-        private System.Nullable<System.DateTime> startDateTimeField;
-        
-        private bool startDateTimeFieldSpecified;
-        
-        private System.Nullable<bool> useTrafficField;
-        
-        private bool useTrafficFieldSpecified;
-        
-        private System.Nullable<bool> useTollRoadsField;
-        
-        private bool useTollRoadsFieldSpecified;
-        
-        private System.Nullable<bool> useIQRField;
-        
-        private bool useIQRFieldSpecified;
-        
-        private string startTimeField;
-        
-        private System.Nullable<RouteDay> startDayField;
-        
-        private System.Nullable<RouteType> routeTypeField;
-        
-        public RoutingParameter() {
-            this.startDayField = RouteDay.today;
-            this.routeTypeField = RouteType.Quickest;
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
-        public int startLongitude {
-            get {
-                return this.startLongitudeField;
-            }
-            set {
-                this.startLongitudeField = value;
-                this.RaisePropertyChanged("startLongitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
-        public int startLatitude {
-            get {
-                return this.startLatitudeField;
-            }
-            set {
-                this.startLatitudeField = value;
-                this.RaisePropertyChanged("startLatitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
-        public int endLongitude {
-            get {
-                return this.endLongitudeField;
-            }
-            set {
-                this.endLongitudeField = value;
-                this.RaisePropertyChanged("endLongitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
-        public int endLatitude {
-            get {
-                return this.endLatitudeField;
-            }
-            set {
-                this.endLatitudeField = value;
-                this.RaisePropertyChanged("endLatitude");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public System.Nullable<System.DateTime> startDateTime {
-            get {
-                return this.startDateTimeField;
-            }
-            set {
-                this.startDateTimeField = value;
-                this.RaisePropertyChanged("startDateTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool startDateTimeSpecified {
-            get {
-                return this.startDateTimeFieldSpecified;
-            }
-            set {
-                this.startDateTimeFieldSpecified = value;
-                this.RaisePropertyChanged("startDateTimeSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public System.Nullable<bool> useTraffic {
-            get {
-                return this.useTrafficField;
-            }
-            set {
-                this.useTrafficField = value;
-                this.RaisePropertyChanged("useTraffic");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool useTrafficSpecified {
-            get {
-                return this.useTrafficFieldSpecified;
-            }
-            set {
-                this.useTrafficFieldSpecified = value;
-                this.RaisePropertyChanged("useTrafficSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public System.Nullable<bool> useTollRoads {
-            get {
-                return this.useTollRoadsField;
-            }
-            set {
-                this.useTollRoadsField = value;
-                this.RaisePropertyChanged("useTollRoads");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool useTollRoadsSpecified {
-            get {
-                return this.useTollRoadsFieldSpecified;
-            }
-            set {
-                this.useTollRoadsFieldSpecified = value;
-                this.RaisePropertyChanged("useTollRoadsSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
-        public System.Nullable<bool> useIQR {
-            get {
-                return this.useIQRField;
-            }
-            set {
-                this.useIQRField = value;
-                this.RaisePropertyChanged("useIQR");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool useIQRSpecified {
-            get {
-                return this.useIQRFieldSpecified;
-            }
-            set {
-                this.useIQRFieldSpecified = value;
-                this.RaisePropertyChanged("useIQRSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
-        public string startTime {
-            get {
-                return this.startTimeField;
-            }
-            set {
-                this.startTimeField = value;
-                this.RaisePropertyChanged("startTime");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
-        [System.ComponentModel.DefaultValueAttribute(RouteDay.today)]
-        public System.Nullable<RouteDay> startDay {
-            get {
-                return this.startDayField;
-            }
-            set {
-                this.startDayField = value;
-                this.RaisePropertyChanged("startDay");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
-        [System.ComponentModel.DefaultValueAttribute(RouteType.Quickest)]
-        public System.Nullable<RouteType> routeType {
-            get {
-                return this.routeTypeField;
-            }
-            set {
-                this.routeTypeField = value;
-                this.RaisePropertyChanged("routeType");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public enum RouteDay {
-        
-        /// <remarks/>
-        today,
-        
-        /// <remarks/>
-        tomorrow,
-        
-        /// <remarks/>
-        mon,
-        
-        /// <remarks/>
-        tue,
-        
-        /// <remarks/>
-        wed,
-        
-        /// <remarks/>
-        thu,
-        
-        /// <remarks/>
-        fri,
-        
-        /// <remarks/>
-        sat,
-        
-        /// <remarks/>
-        sun,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
-    public enum RouteType {
-        
-        /// <remarks/>
-        Quickest,
-        
-        /// <remarks/>
-        Shortest,
-        
-        /// <remarks/>
-        AvoidMotorway,
-        
-        /// <remarks/>
-        Walk,
-        
-        /// <remarks/>
-        Bicycle,
-        
-        /// <remarks/>
-        SpeedLimited,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
-    public partial class GeocodingByProviderParameter : ParameterBase {
-        
-        private string streetField;
-        
-        private string postcodeField;
-        
-        private string cityField;
-        
-        private string countryCodeField;
-        
-        private string streetNumberField;
-        
-        private string providerField;
-        
-        private string freeTextField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
-        public string street {
-            get {
-                return this.streetField;
-            }
-            set {
-                this.streetField = value;
-                this.RaisePropertyChanged("street");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
-        public string postcode {
-            get {
-                return this.postcodeField;
-            }
-            set {
-                this.postcodeField = value;
-                this.RaisePropertyChanged("postcode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
-        public string city {
-            get {
-                return this.cityField;
-            }
-            set {
-                this.cityField = value;
-                this.RaisePropertyChanged("city");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
-        public string countryCode {
-            get {
-                return this.countryCodeField;
-            }
-            set {
-                this.countryCodeField = value;
-                this.RaisePropertyChanged("countryCode");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
-        public string streetNumber {
-            get {
-                return this.streetNumberField;
-            }
-            set {
-                this.streetNumberField = value;
-                this.RaisePropertyChanged("streetNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
-        public string provider {
-            get {
-                return this.providerField;
-            }
-            set {
-                this.providerField = value;
-                this.RaisePropertyChanged("provider");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
-        public string freeText {
-            get {
-                return this.freeTextField;
-            }
-            set {
-                this.freeTextField = value;
-                this.RaisePropertyChanged("freeText");
-            }
-        }
     }
     
     /// <remarks/>
@@ -16764,6 +14906,1864 @@ namespace TomTomCall.ServiceReference1 {
             set {
                 this.driverUidField = value;
                 this.RaisePropertyChanged("driverUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class ClearOrdersParameter : ParameterBase {
+        
+        private bool markDeletedField;
+        
+        private bool markDeletedFieldSpecified;
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public bool markDeleted {
+            get {
+                return this.markDeletedField;
+            }
+            set {
+                this.markDeletedField = value;
+                this.RaisePropertyChanged("markDeleted");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool markDeletedSpecified {
+            get {
+                return this.markDeletedFieldSpecified;
+            }
+            set {
+                this.markDeletedFieldSpecified = value;
+                this.RaisePropertyChanged("markDeletedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class OrderReportParameters : ParameterBase {
+        
+        private ObjectIdentityParameter objectField;
+        
+        private string objectGroupNameField;
+        
+        private string orderNoField;
+        
+        private System.Nullable<OrderType> orderTypeField;
+        
+        private bool orderTypeFieldSpecified;
+        
+        private DateRange dateRangeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public ObjectIdentityParameter @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string objectGroupName {
+            get {
+                return this.objectGroupNameField;
+            }
+            set {
+                this.objectGroupNameField = value;
+                this.RaisePropertyChanged("objectGroupName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<OrderType> orderType {
+            get {
+                return this.orderTypeField;
+            }
+            set {
+                this.orderTypeField = value;
+                this.RaisePropertyChanged("orderType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderTypeSpecified {
+            get {
+                return this.orderTypeFieldSpecified;
+            }
+            set {
+                this.orderTypeFieldSpecified = value;
+                this.RaisePropertyChanged("orderTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public DateRange dateRange {
+            get {
+                return this.dateRangeField;
+            }
+            set {
+                this.dateRangeField = value;
+                this.RaisePropertyChanged("dateRange");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public partial class DateRange : ParameterBase {
+        
+        private System.Nullable<System.DateTime> fromField;
+        
+        private bool fromFieldSpecified;
+        
+        private System.Nullable<System.DateTime> toField;
+        
+        private bool toFieldSpecified;
+        
+        private System.Nullable<int> yearField;
+        
+        private bool yearFieldSpecified;
+        
+        private System.Nullable<int> monthField;
+        
+        private bool monthFieldSpecified;
+        
+        private System.Nullable<int> dayField;
+        
+        private bool dayFieldSpecified;
+        
+        private DateRangePattern rangePatternField;
+        
+        private bool rangePatternFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public System.Nullable<System.DateTime> from {
+            get {
+                return this.fromField;
+            }
+            set {
+                this.fromField = value;
+                this.RaisePropertyChanged("from");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool fromSpecified {
+            get {
+                return this.fromFieldSpecified;
+            }
+            set {
+                this.fromFieldSpecified = value;
+                this.RaisePropertyChanged("fromSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public System.Nullable<System.DateTime> to {
+            get {
+                return this.toField;
+            }
+            set {
+                this.toField = value;
+                this.RaisePropertyChanged("to");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool toSpecified {
+            get {
+                return this.toFieldSpecified;
+            }
+            set {
+                this.toFieldSpecified = value;
+                this.RaisePropertyChanged("toSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<int> year {
+            get {
+                return this.yearField;
+            }
+            set {
+                this.yearField = value;
+                this.RaisePropertyChanged("year");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool yearSpecified {
+            get {
+                return this.yearFieldSpecified;
+            }
+            set {
+                this.yearFieldSpecified = value;
+                this.RaisePropertyChanged("yearSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<int> month {
+            get {
+                return this.monthField;
+            }
+            set {
+                this.monthField = value;
+                this.RaisePropertyChanged("month");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool monthSpecified {
+            get {
+                return this.monthFieldSpecified;
+            }
+            set {
+                this.monthFieldSpecified = value;
+                this.RaisePropertyChanged("monthSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public System.Nullable<int> day {
+            get {
+                return this.dayField;
+            }
+            set {
+                this.dayField = value;
+                this.RaisePropertyChanged("day");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool daySpecified {
+            get {
+                return this.dayFieldSpecified;
+            }
+            set {
+                this.dayFieldSpecified = value;
+                this.RaisePropertyChanged("daySpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public DateRangePattern rangePattern {
+            get {
+                return this.rangePatternField;
+            }
+            set {
+                this.rangePatternField = value;
+                this.RaisePropertyChanged("rangePattern");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool rangePatternSpecified {
+            get {
+                return this.rangePatternFieldSpecified;
+            }
+            set {
+                this.rangePatternFieldSpecified = value;
+                this.RaisePropertyChanged("rangePatternSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public enum DateRangePattern {
+        
+        /// <remarks/>
+        UD,
+        
+        /// <remarks/>
+        D0,
+        
+        /// <remarks/>
+        Dm1,
+        
+        /// <remarks/>
+        Dm2,
+        
+        /// <remarks/>
+        Dm3,
+        
+        /// <remarks/>
+        Dm4,
+        
+        /// <remarks/>
+        Dm5,
+        
+        /// <remarks/>
+        Dm6,
+        
+        /// <remarks/>
+        W0,
+        
+        /// <remarks/>
+        Wm1,
+        
+        /// <remarks/>
+        Wm2,
+        
+        /// <remarks/>
+        Wm3,
+        
+        /// <remarks/>
+        WF0,
+        
+        /// <remarks/>
+        WFm1,
+        
+        /// <remarks/>
+        WFm2,
+        
+        /// <remarks/>
+        WFm3,
+        
+        /// <remarks/>
+        M0,
+        
+        /// <remarks/>
+        Mm1,
+        
+        /// <remarks/>
+        Mm2,
+        
+        /// <remarks/>
+        Mm3,
+        
+        /// <remarks/>
+        Mm4,
+        
+        /// <remarks/>
+        Mm5,
+        
+        /// <remarks/>
+        Mm6,
+        
+        /// <remarks/>
+        Mm7,
+        
+        /// <remarks/>
+        Mm8,
+        
+        /// <remarks/>
+        Mm9,
+        
+        /// <remarks/>
+        Y0,
+        
+        /// <remarks/>
+        Ym1,
+        
+        /// <remarks/>
+        Ym2,
+        
+        /// <remarks/>
+        Ym3,
+        
+        /// <remarks/>
+        Ym4,
+        
+        /// <remarks/>
+        Ym5,
+        
+        /// <remarks/>
+        Ym6,
+        
+        /// <remarks/>
+        Ym7,
+        
+        /// <remarks/>
+        Ym8,
+        
+        /// <remarks/>
+        Ym9,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class DeleteOrderParameter : ParameterBase {
+        
+        private bool markDeletedField;
+        
+        private bool markDeletedFieldSpecified;
+        
+        private string orderNoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public bool markDeleted {
+            get {
+                return this.markDeletedField;
+            }
+            set {
+                this.markDeletedField = value;
+                this.RaisePropertyChanged("markDeleted");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool markDeletedSpecified {
+            get {
+                return this.markDeletedFieldSpecified;
+            }
+            set {
+                this.markDeletedFieldSpecified = value;
+                this.RaisePropertyChanged("markDeletedSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class AssignOrderParameter : ParameterBase {
+        
+        private string orderNoField;
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class ShowWaypointsParameter : ParameterBase {
+        
+        private string orderNoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(BasicOrderParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class OrderIdentityParameter : ParameterBase {
+        
+        private string orderNoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderUpdateParameter))]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(DestinationOrderParameter))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class BasicOrderParameter : OrderIdentityParameter {
+        
+        private string orderTextField;
+        
+        public BasicOrderParameter() {
+            this.orderTextField = "";
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string orderText {
+            get {
+                return this.orderTextField;
+            }
+            set {
+                this.orderTextField = value;
+                this.RaisePropertyChanged("orderText");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class DestinationOrderUpdateParameter : BasicOrderParameter {
+        
+        private string addrNoToUseAsDestinationField;
+        
+        private LocationParameter explicitDestinationField;
+        
+        private OrderType orderTypeField;
+        
+        private bool orderTypeFieldSpecified;
+        
+        private System.DateTime scheduledCompletionDateAndTimeField;
+        
+        private bool scheduledCompletionDateAndTimeFieldSpecified;
+        
+        private ArrivalTolerance arrivalToleranceField;
+        
+        private bool arrivalToleranceFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string addrNoToUseAsDestination {
+            get {
+                return this.addrNoToUseAsDestinationField;
+            }
+            set {
+                this.addrNoToUseAsDestinationField = value;
+                this.RaisePropertyChanged("addrNoToUseAsDestination");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public LocationParameter explicitDestination {
+            get {
+                return this.explicitDestinationField;
+            }
+            set {
+                this.explicitDestinationField = value;
+                this.RaisePropertyChanged("explicitDestination");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public OrderType orderType {
+            get {
+                return this.orderTypeField;
+            }
+            set {
+                this.orderTypeField = value;
+                this.RaisePropertyChanged("orderType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderTypeSpecified {
+            get {
+                return this.orderTypeFieldSpecified;
+            }
+            set {
+                this.orderTypeFieldSpecified = value;
+                this.RaisePropertyChanged("orderTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public System.DateTime scheduledCompletionDateAndTime {
+            get {
+                return this.scheduledCompletionDateAndTimeField;
+            }
+            set {
+                this.scheduledCompletionDateAndTimeField = value;
+                this.RaisePropertyChanged("scheduledCompletionDateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool scheduledCompletionDateAndTimeSpecified {
+            get {
+                return this.scheduledCompletionDateAndTimeFieldSpecified;
+            }
+            set {
+                this.scheduledCompletionDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("scheduledCompletionDateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public ArrivalTolerance arrivalTolerance {
+            get {
+                return this.arrivalToleranceField;
+            }
+            set {
+                this.arrivalToleranceField = value;
+                this.RaisePropertyChanged("arrivalTolerance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool arrivalToleranceSpecified {
+            get {
+                return this.arrivalToleranceFieldSpecified;
+            }
+            set {
+                this.arrivalToleranceFieldSpecified = value;
+                this.RaisePropertyChanged("arrivalToleranceSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class LocationParameter : BasicLocationParameter {
+        
+        private GeoPositionParameter geoPositionField;
+        
+        private ContactParameter contactField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public GeoPositionParameter geoPosition {
+            get {
+                return this.geoPositionField;
+            }
+            set {
+                this.geoPositionField = value;
+                this.RaisePropertyChanged("geoPosition");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public ContactParameter contact {
+            get {
+                return this.contactField;
+            }
+            set {
+                this.contactField = value;
+                this.RaisePropertyChanged("contact");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class GeoPositionParameter : ParameterBase {
+        
+        private int latitudeField;
+        
+        private int longitudeField;
+        
+        private string mapcodeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int latitude {
+            get {
+                return this.latitudeField;
+            }
+            set {
+                this.latitudeField = value;
+                this.RaisePropertyChanged("latitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public int longitude {
+            get {
+                return this.longitudeField;
+            }
+            set {
+                this.longitudeField = value;
+                this.RaisePropertyChanged("longitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string mapcode {
+            get {
+                return this.mapcodeField;
+            }
+            set {
+                this.mapcodeField = value;
+                this.RaisePropertyChanged("mapcode");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class ContactParameter : ParameterBase {
+        
+        private string contactNameField;
+        
+        private string contactTelField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string contactName {
+            get {
+                return this.contactNameField;
+            }
+            set {
+                this.contactNameField = value;
+                this.RaisePropertyChanged("contactName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string contactTel {
+            get {
+                return this.contactTelField;
+            }
+            set {
+                this.contactTelField = value;
+                this.RaisePropertyChanged("contactTel");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(LocationParameter))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class BasicLocationParameter : ParameterBase {
+        
+        private string streetField;
+        
+        private string postcodeField;
+        
+        private string cityField;
+        
+        private string countryField;
+        
+        private string streetNumberField;
+        
+        public BasicLocationParameter() {
+            this.postcodeField = "";
+            this.cityField = "";
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("street");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string postcode {
+            get {
+                return this.postcodeField;
+            }
+            set {
+                this.postcodeField = value;
+                this.RaisePropertyChanged("postcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        [System.ComponentModel.DefaultValueAttribute("")]
+        public string city {
+            get {
+                return this.cityField;
+            }
+            set {
+                this.cityField = value;
+                this.RaisePropertyChanged("city");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public string country {
+            get {
+                return this.countryField;
+            }
+            set {
+                this.countryField = value;
+                this.RaisePropertyChanged("country");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public string streetNumber {
+            get {
+                return this.streetNumberField;
+            }
+            set {
+                this.streetNumberField = value;
+                this.RaisePropertyChanged("streetNumber");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/orders")]
+    public partial class DestinationOrderParameter : BasicOrderParameter {
+        
+        private string addrNoToUseAsDestinationField;
+        
+        private LocationParameter explicitDestinationField;
+        
+        private System.Nullable<int> notificationMinutesField;
+        
+        private System.Nullable<bool> notificationEnabledField;
+        
+        private OrderType orderTypeField;
+        
+        private bool orderTypeFieldSpecified;
+        
+        private System.DateTime scheduledCompletionDateAndTimeField;
+        
+        private bool scheduledCompletionDateAndTimeFieldSpecified;
+        
+        private ArrivalTolerance arrivalToleranceField;
+        
+        private bool arrivalToleranceFieldSpecified;
+        
+        public DestinationOrderParameter() {
+            this.notificationMinutesField = 15;
+            this.notificationEnabledField = false;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string addrNoToUseAsDestination {
+            get {
+                return this.addrNoToUseAsDestinationField;
+            }
+            set {
+                this.addrNoToUseAsDestinationField = value;
+                this.RaisePropertyChanged("addrNoToUseAsDestination");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public LocationParameter explicitDestination {
+            get {
+                return this.explicitDestinationField;
+            }
+            set {
+                this.explicitDestinationField = value;
+                this.RaisePropertyChanged("explicitDestination");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        [System.ComponentModel.DefaultValueAttribute(15)]
+        public System.Nullable<int> notificationMinutes {
+            get {
+                return this.notificationMinutesField;
+            }
+            set {
+                this.notificationMinutesField = value;
+                this.RaisePropertyChanged("notificationMinutes");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        [System.ComponentModel.DefaultValueAttribute(false)]
+        public System.Nullable<bool> notificationEnabled {
+            get {
+                return this.notificationEnabledField;
+            }
+            set {
+                this.notificationEnabledField = value;
+                this.RaisePropertyChanged("notificationEnabled");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public OrderType orderType {
+            get {
+                return this.orderTypeField;
+            }
+            set {
+                this.orderTypeField = value;
+                this.RaisePropertyChanged("orderType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderTypeSpecified {
+            get {
+                return this.orderTypeFieldSpecified;
+            }
+            set {
+                this.orderTypeFieldSpecified = value;
+                this.RaisePropertyChanged("orderTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public System.DateTime scheduledCompletionDateAndTime {
+            get {
+                return this.scheduledCompletionDateAndTimeField;
+            }
+            set {
+                this.scheduledCompletionDateAndTimeField = value;
+                this.RaisePropertyChanged("scheduledCompletionDateAndTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool scheduledCompletionDateAndTimeSpecified {
+            get {
+                return this.scheduledCompletionDateAndTimeFieldSpecified;
+            }
+            set {
+                this.scheduledCompletionDateAndTimeFieldSpecified = value;
+                this.RaisePropertyChanged("scheduledCompletionDateAndTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public ArrivalTolerance arrivalTolerance {
+            get {
+                return this.arrivalToleranceField;
+            }
+            set {
+                this.arrivalToleranceField = value;
+                this.RaisePropertyChanged("arrivalTolerance");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool arrivalToleranceSpecified {
+            get {
+                return this.arrivalToleranceFieldSpecified;
+            }
+            set {
+                this.arrivalToleranceFieldSpecified = value;
+                this.RaisePropertyChanged("arrivalToleranceSpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class ShowMessagesParameter : ParameterBase {
+        
+        private ObjectIdentityParameter objectField;
+        
+        private DateRange dateRangeField;
+        
+        private System.Nullable<MessageCategory> messageCategoryField;
+        
+        private bool messageCategoryFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public ObjectIdentityParameter @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public DateRange dateRange {
+            get {
+                return this.dateRangeField;
+            }
+            set {
+                this.dateRangeField = value;
+                this.RaisePropertyChanged("dateRange");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<MessageCategory> messageCategory {
+            get {
+                return this.messageCategoryField;
+            }
+            set {
+                this.messageCategoryField = value;
+                this.RaisePropertyChanged("messageCategory");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool messageCategorySpecified {
+            get {
+                return this.messageCategoryFieldSpecified;
+            }
+            set {
+                this.messageCategoryFieldSpecified = value;
+                this.RaisePropertyChanged("messageCategorySpecified");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class ClearTextMessagesParameter : ParameterBase {
+        
+        private string objectNoField;
+        
+        private string objectUidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectNo {
+            get {
+                return this.objectNoField;
+            }
+            set {
+                this.objectNoField = value;
+                this.RaisePropertyChanged("objectNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string objectUid {
+            get {
+                return this.objectUidField;
+            }
+            set {
+                this.objectUidField = value;
+                this.RaisePropertyChanged("objectUid");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class QueueServiceParameter : ParameterBase {
+        
+        private QueueServiceMessageClassFilter filterField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public QueueServiceMessageClassFilter filter {
+            get {
+                return this.filterField;
+            }
+            set {
+                this.filterField = value;
+                this.RaisePropertyChanged("filter");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public enum QueueServiceMessageClassFilter {
+        
+        /// <remarks/>
+        ALL,
+        
+        /// <remarks/>
+        ALL_EXCEPT_POSITION_MESSAGES,
+        
+        /// <remarks/>
+        NOTIFICATIONS,
+        
+        /// <remarks/>
+        ORDER_RELATED,
+        
+        /// <remarks/>
+        DRIVER_RELATED,
+        
+        /// <remarks/>
+        AREA_RELATED,
+        
+        /// <remarks/>
+        STATUS,
+        
+        /// <remarks/>
+        TEXT,
+        
+        /// <remarks/>
+        TRIP,
+        
+        /// <remarks/>
+        INPUT_SIGNAL,
+        
+        /// <remarks/>
+        AUX_DEVICE_DATA,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class SimpleTextMessageParameter : ParameterBase {
+        
+        private ObjectIdentityParameter objectField;
+        
+        private string messageTextField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public ObjectIdentityParameter @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public string messageText {
+            get {
+                return this.messageTextField;
+            }
+            set {
+                this.messageTextField = value;
+                this.RaisePropertyChanged("messageText");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class MessageIdentityParameter : ParameterBase {
+        
+        private long messageIdField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public long messageId {
+            get {
+                return this.messageIdField;
+            }
+            set {
+                this.messageIdField = value;
+                this.RaisePropertyChanged("messageId");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/messages")]
+    public partial class OrderMessageReportParameters : ParameterBase {
+        
+        private ObjectIdentityParameter objectField;
+        
+        private string orderNoField;
+        
+        private System.Nullable<OrderType> orderTypeField;
+        
+        private bool orderTypeFieldSpecified;
+        
+        private System.Nullable<OrderStateCode> orderStateField;
+        
+        private bool orderStateFieldSpecified;
+        
+        private MessageIdentityParameter messageField;
+        
+        private DateRange dateRangeField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public ObjectIdentityParameter @object {
+            get {
+                return this.objectField;
+            }
+            set {
+                this.objectField = value;
+                this.RaisePropertyChanged("object");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string orderNo {
+            get {
+                return this.orderNoField;
+            }
+            set {
+                this.orderNoField = value;
+                this.RaisePropertyChanged("orderNo");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public System.Nullable<OrderType> orderType {
+            get {
+                return this.orderTypeField;
+            }
+            set {
+                this.orderTypeField = value;
+                this.RaisePropertyChanged("orderType");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderTypeSpecified {
+            get {
+                return this.orderTypeFieldSpecified;
+            }
+            set {
+                this.orderTypeFieldSpecified = value;
+                this.RaisePropertyChanged("orderTypeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public System.Nullable<OrderStateCode> orderState {
+            get {
+                return this.orderStateField;
+            }
+            set {
+                this.orderStateField = value;
+                this.RaisePropertyChanged("orderState");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool orderStateSpecified {
+            get {
+                return this.orderStateFieldSpecified;
+            }
+            set {
+                this.orderStateFieldSpecified = value;
+                this.RaisePropertyChanged("orderStateSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public MessageIdentityParameter message {
+            get {
+                return this.messageField;
+            }
+            set {
+                this.messageField = value;
+                this.RaisePropertyChanged("message");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=5)]
+        public DateRange dateRange {
+            get {
+                return this.dateRangeField;
+            }
+            set {
+                this.dateRangeField = value;
+                this.RaisePropertyChanged("dateRange");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class RoutingParameter : ParameterBase {
+        
+        private int startLongitudeField;
+        
+        private int startLatitudeField;
+        
+        private int endLongitudeField;
+        
+        private int endLatitudeField;
+        
+        private System.Nullable<System.DateTime> startDateTimeField;
+        
+        private bool startDateTimeFieldSpecified;
+        
+        private System.Nullable<bool> useTrafficField;
+        
+        private bool useTrafficFieldSpecified;
+        
+        private System.Nullable<bool> useTollRoadsField;
+        
+        private bool useTollRoadsFieldSpecified;
+        
+        private System.Nullable<bool> useIQRField;
+        
+        private bool useIQRFieldSpecified;
+        
+        private string startTimeField;
+        
+        private System.Nullable<RouteDay> startDayField;
+        
+        private System.Nullable<RouteType> routeTypeField;
+        
+        public RoutingParameter() {
+            this.startDayField = RouteDay.today;
+            this.routeTypeField = RouteType.Quickest;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=0)]
+        public int startLongitude {
+            get {
+                return this.startLongitudeField;
+            }
+            set {
+                this.startLongitudeField = value;
+                this.RaisePropertyChanged("startLongitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=1)]
+        public int startLatitude {
+            get {
+                return this.startLatitudeField;
+            }
+            set {
+                this.startLatitudeField = value;
+                this.RaisePropertyChanged("startLatitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=2)]
+        public int endLongitude {
+            get {
+                return this.endLongitudeField;
+            }
+            set {
+                this.endLongitudeField = value;
+                this.RaisePropertyChanged("endLongitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, Order=3)]
+        public int endLatitude {
+            get {
+                return this.endLatitudeField;
+            }
+            set {
+                this.endLatitudeField = value;
+                this.RaisePropertyChanged("endLatitude");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public System.Nullable<System.DateTime> startDateTime {
+            get {
+                return this.startDateTimeField;
+            }
+            set {
+                this.startDateTimeField = value;
+                this.RaisePropertyChanged("startDateTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool startDateTimeSpecified {
+            get {
+                return this.startDateTimeFieldSpecified;
+            }
+            set {
+                this.startDateTimeFieldSpecified = value;
+                this.RaisePropertyChanged("startDateTimeSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public System.Nullable<bool> useTraffic {
+            get {
+                return this.useTrafficField;
+            }
+            set {
+                this.useTrafficField = value;
+                this.RaisePropertyChanged("useTraffic");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool useTrafficSpecified {
+            get {
+                return this.useTrafficFieldSpecified;
+            }
+            set {
+                this.useTrafficFieldSpecified = value;
+                this.RaisePropertyChanged("useTrafficSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public System.Nullable<bool> useTollRoads {
+            get {
+                return this.useTollRoadsField;
+            }
+            set {
+                this.useTollRoadsField = value;
+                this.RaisePropertyChanged("useTollRoads");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool useTollRoadsSpecified {
+            get {
+                return this.useTollRoadsFieldSpecified;
+            }
+            set {
+                this.useTollRoadsFieldSpecified = value;
+                this.RaisePropertyChanged("useTollRoadsSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=7)]
+        public System.Nullable<bool> useIQR {
+            get {
+                return this.useIQRField;
+            }
+            set {
+                this.useIQRField = value;
+                this.RaisePropertyChanged("useIQR");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool useIQRSpecified {
+            get {
+                return this.useIQRFieldSpecified;
+            }
+            set {
+                this.useIQRFieldSpecified = value;
+                this.RaisePropertyChanged("useIQRSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=8)]
+        public string startTime {
+            get {
+                return this.startTimeField;
+            }
+            set {
+                this.startTimeField = value;
+                this.RaisePropertyChanged("startTime");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=9)]
+        [System.ComponentModel.DefaultValueAttribute(RouteDay.today)]
+        public System.Nullable<RouteDay> startDay {
+            get {
+                return this.startDayField;
+            }
+            set {
+                this.startDayField = value;
+                this.RaisePropertyChanged("startDay");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=10)]
+        [System.ComponentModel.DefaultValueAttribute(RouteType.Quickest)]
+        public System.Nullable<RouteType> routeType {
+            get {
+                return this.routeTypeField;
+            }
+            set {
+                this.routeTypeField = value;
+                this.RaisePropertyChanged("routeType");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public enum RouteDay {
+        
+        /// <remarks/>
+        today,
+        
+        /// <remarks/>
+        tomorrow,
+        
+        /// <remarks/>
+        mon,
+        
+        /// <remarks/>
+        tue,
+        
+        /// <remarks/>
+        wed,
+        
+        /// <remarks/>
+        thu,
+        
+        /// <remarks/>
+        fri,
+        
+        /// <remarks/>
+        sat,
+        
+        /// <remarks/>
+        sun,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters")]
+    public enum RouteType {
+        
+        /// <remarks/>
+        Quickest,
+        
+        /// <remarks/>
+        Shortest,
+        
+        /// <remarks/>
+        AvoidMotorway,
+        
+        /// <remarks/>
+        Walk,
+        
+        /// <remarks/>
+        Bicycle,
+        
+        /// <remarks/>
+        SpeedLimited,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.0.30319.34234")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://connect.webfleet.tomtomwork.com/parameters/addresses")]
+    public partial class GeocodingByProviderParameter : ParameterBase {
+        
+        private string streetField;
+        
+        private string postcodeField;
+        
+        private string cityField;
+        
+        private string countryCodeField;
+        
+        private string streetNumberField;
+        
+        private string providerField;
+        
+        private string freeTextField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=0)]
+        public string street {
+            get {
+                return this.streetField;
+            }
+            set {
+                this.streetField = value;
+                this.RaisePropertyChanged("street");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=1)]
+        public string postcode {
+            get {
+                return this.postcodeField;
+            }
+            set {
+                this.postcodeField = value;
+                this.RaisePropertyChanged("postcode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=2)]
+        public string city {
+            get {
+                return this.cityField;
+            }
+            set {
+                this.cityField = value;
+                this.RaisePropertyChanged("city");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=3)]
+        public string countryCode {
+            get {
+                return this.countryCodeField;
+            }
+            set {
+                this.countryCodeField = value;
+                this.RaisePropertyChanged("countryCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=4)]
+        public string streetNumber {
+            get {
+                return this.streetNumberField;
+            }
+            set {
+                this.streetNumberField = value;
+                this.RaisePropertyChanged("streetNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=5)]
+        public string provider {
+            get {
+                return this.providerField;
+            }
+            set {
+                this.providerField = value;
+                this.RaisePropertyChanged("provider");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Form=System.Xml.Schema.XmlSchemaForm.Unqualified, IsNullable=true, Order=6)]
+        public string freeText {
+            get {
+                return this.freeTextField;
+            }
+            set {
+                this.freeTextField = value;
+                this.RaisePropertyChanged("freeText");
             }
         }
     }

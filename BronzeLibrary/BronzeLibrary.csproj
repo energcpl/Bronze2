@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnergLibrary">
-      <HintPath>..\..\..\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
+      <HintPath>C:\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>D:\Users\timc\Downloads\Json50r8\Bin\Net40\Newtonsoft.Json.dll</HintPath>

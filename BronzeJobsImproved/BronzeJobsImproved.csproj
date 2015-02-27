@@ -34,9 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EnergLibrary, Version=6.0.5288.24141, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
+    <Reference Include="EnergLibrary">
+      <HintPath>C:\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

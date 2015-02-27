@@ -32,7 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EnergLibrary">
-      <HintPath>..\..\..\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
+      <HintPath>C:\VS2010\EnergLibrary\EnergLibrary\bin\Release\EnergLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

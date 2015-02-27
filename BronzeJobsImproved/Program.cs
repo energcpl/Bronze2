@@ -3,6 +3,7 @@ using BronzeDBLibrary;
 using System;
 using BronzeLibrary;
 using System.Timers;
+using EnergLibrary;
 
 namespace BronzeJobsImproved
 {
@@ -105,7 +106,7 @@ namespace BronzeJobsImproved
                                     DateTime scheduled_date = Convert.ToDateTime(dtjobRecord.Rows[0]["date_visit"]);
                                     MoreInfo mi = new MoreInfo();
                                     WorkOrderRef wor = new WorkOrderRef();
-                                    wor.ui = new EnergLibrary.UnitInfo(Convert.ToInt32(dtjobRecord.Rows[0]["display_id"]));
+                                    wor.ui = new UnitInfo(Convert.ToInt32(dtjobRecord.Rows[0]["display_id"]));
                                     wor.visitID = jobid;
                                     wor.add = DBStuff.GetAddress(wor.ui);
                                     wor.jdeReference = String.Format("JDE{0}", jobid);
